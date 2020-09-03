@@ -22,7 +22,7 @@ To the [results] directory, please upload .csv file of 42 rows and 7 columns in 
   * Column 6: Query version
   * Column 7: Query execution date in the format of YYYY-MM-DD HH:MM:SS
 
-Please include all permissible values defined in [the template result](results/template_results.csv) even when the patient count is zero (e.g. using left join). The same number of rows is expected in every result file. This would expedite the processes of data QC and aggregation across institutions.
+Please include all permissible values defined in [the template result] even when the patient count is zero (e.g. using left join). The same number of rows is expected in every result file. This would expedite the processes of data QC and aggregation across institutions.
 
 ### Other info
   * OMOP CDM [version 5.3](https://github.com/OHDSI/CommonDataModel/releases/tag/v5.3.1)
