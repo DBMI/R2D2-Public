@@ -1,0 +1,6 @@
+OUTCOME,AGE,GENDER_male,RACE_Asian,RACE_Black,RACE_NHPI,RACE_Other,ETHNICIY_HispanicLatino
+0,0.77,0,0,0,1,0,1
+0,0.88,1,0,1,0,0,0
+0,0.44,1,0,0,0,1,0
+0,0.33,0,1,0,0,0,1
+0,0.55,0,0,0,1,0,1
