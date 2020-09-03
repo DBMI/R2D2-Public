@@ -1,0 +1,497 @@
+{
+  "items": [
+    {
+      "concept": {
+        "CONCEPT_ID": 2722266,
+        "CONCEPT_NAME": "Additional automated hemogram indices (eg, red cell distribution width (RDW), mean platelet volume (MPV), red blood cell histogram, platelet histogram, white blood cell histogram); four or more indices.",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "85030",
+        "DOMAIN_ID": "Procedure",
+        "VOCABULARY_ID": "CPT4",
+        "CONCEPT_CLASS_ID": "CPT4"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 2722265,
+        "CONCEPT_NAME": "Additional automated hemogram indices (eg, red cell distribution width (RDW), mean platelet volume (MPV), red blood cell histogram, platelet histogram, white blood cell histogram); one to three indices.",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "85029",
+        "DOMAIN_ID": "Procedure",
+        "VOCABULARY_ID": "CPT4",
+        "CONCEPT_CLASS_ID": "CPT4"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40774640,
+        "CONCEPT_NAME": "Erythrocyte Distribution Width | Blood cord",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "LP61584-6",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "LOINC Hierarchy"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40773752,
+        "CONCEPT_NAME": "Erythrocyte Distribution Width | Red Blood Cells",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "LP46692-7",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "LOINC Hierarchy"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40789356,
+        "CONCEPT_NAME": "Erythrocyte distribution width",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LP17698-9",
+        "DOMAIN_ID": "Observation",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "LOINC Component"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3002888,
+        "CONCEPT_NAME": "Erythrocyte distribution width [Entitic volume]",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "30384-2",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Lab Test"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3015182,
+        "CONCEPT_NAME": "Erythrocyte distribution width [Entitic volume] by Automated count",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "21000-5",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Lab Test"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3002385,
+        "CONCEPT_NAME": "Erythrocyte distribution width [Ratio]",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "30385-9",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Lab Test"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3019897,
+        "CONCEPT_NAME": "Erythrocyte distribution width [Ratio] by Automated count",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "788-0",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Lab Test"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3199253,
+        "CONCEPT_NAME": "Erythrocyte distribution width [Ratio] by Automated count",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "911753281000004109",
+        "DOMAIN_ID": "Observation",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Observable Entity"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40765008,
+        "CONCEPT_NAME": "Erythrocyte distribution width [Ratio] in Blood from Fetus by Automated count",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "62247-2",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Lab Test"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3049383,
+        "CONCEPT_NAME": "Erythrocyte distribution width [Ratio] in Cord blood",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "47277-9",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Lab Test"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37034753,
+        "CONCEPT_NAME": "Erythrocyte distribution width | Blood cord | Hematology and Cell counts",
+        "STANDARD_CONCEPT": "C",
+        "STANDARD_CONCEPT_CAPTION": "Classification",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LP393347-2",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "LOINC Hierarchy"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40772243,
+        "CONCEPT_NAME": "Erythrocyte distribution width | Fetus | Bld-Ser-Plas",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "LP105246-5",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "LOINC Hierarchy"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37043842,
+        "CONCEPT_NAME": "Erythrocyte distribution width | Fetus | Blood | Hematology and Cell counts",
+        "STANDARD_CONCEPT": "C",
+        "STANDARD_CONCEPT_CAPTION": "Classification",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LP393349-8",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "LOINC Hierarchy"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37039984,
+        "CONCEPT_NAME": "Erythrocyte distribution width | Fetus | Hematology and Cell counts",
+        "STANDARD_CONCEPT": "C",
+        "STANDARD_CONCEPT_CAPTION": "Classification",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LP393350-6",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "LOINC Hierarchy"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37041261,
+        "CONCEPT_NAME": "Erythrocyte distribution width | Red Blood Cells | Hematology and Cell counts",
+        "STANDARD_CONCEPT": "C",
+        "STANDARD_CONCEPT_CAPTION": "Classification",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LP393348-0",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "LOINC Hierarchy"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 42536363,
+        "CONCEPT_NAME": "RDW (erythrocyte distribution width) calculation technique",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "735149004",
+        "DOMAIN_ID": "Observation",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3402075,
+        "CONCEPT_NAME": "RDW - Erythrocyte distribution width calculation technique",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "735149004",
+        "DOMAIN_ID": "Observation",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3110866,
+        "CONCEPT_NAME": "Red blood cell distribution width",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "165701004",
+        "DOMAIN_ID": "Procedure",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Procedure"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3139442,
+        "CONCEPT_NAME": "Red blood cell distribution width",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "250229004",
+        "DOMAIN_ID": "Observation",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Observable Entity"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3095134,
+        "CONCEPT_NAME": "Red blood cell distribution width",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "143103004",
+        "DOMAIN_ID": "Procedure",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Procedure"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 45441808,
+        "CONCEPT_NAME": "Red blood cell distribution width",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "42Z7.00",
+        "DOMAIN_ID": "Observation",
+        "VOCABULARY_ID": "Read",
+        "CONCEPT_CLASS_ID": "Read"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37397924,
+        "CONCEPT_NAME": "Red blood cell distribution width",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "993501000000105",
+        "DOMAIN_ID": "Observation",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Observable Entity"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40451480,
+        "CONCEPT_NAME": "Red blood cell distribution width",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "250229004",
+        "DOMAIN_ID": "Observation",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Observable Entity"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40324165,
+        "CONCEPT_NAME": "Red blood cell distribution width",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "165701004",
+        "DOMAIN_ID": "Procedure",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Procedure"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40302425,
+        "CONCEPT_NAME": "Red blood cell distribution width (& level)",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "143103004",
+        "DOMAIN_ID": "Procedure",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Procedure"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4281085,
+        "CONCEPT_NAME": "Red cell distribution width determination",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "66842004",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Procedure"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3437270,
+        "CONCEPT_NAME": "Red cell distribution width determination",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "66842004",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Procedure"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    }
+  ]
+}
