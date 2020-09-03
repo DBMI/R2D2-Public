@@ -15,13 +15,13 @@ Description about the [SQL](sql/template_query.sql) using the stored procedure [
 
 
 ### Results
-To the [results](results/) directory, please upload .csv file of 2 rows and 4 columns in the following format with a header (one .csv file per institution named as SiteXX_results.csv)
+To the [results] directory, please upload .csv file of 2 rows and 4 columns in the following format with a header (one .csv file per institution named as SiteXX_results.csv)
   * Column 1: Site number in the format of (Site01, Site02, ... , Site12)
   * Column 2: Number of **readmitted** patients within 7 days among Column 4
   * Column 3: Number of **NOT readmitted** patients within 7 days among Column 4
   * Column 4: Sum of column 2 and column3; Number of **total** COVID-19 patients **discharged alive** without ICU admission
 
-See the [example](results/template_results.csv) result file.
+See the [example] result file.
 
 
 ### Other info
