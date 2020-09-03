@@ -14,7 +14,7 @@ The evalution of the canoncial SQL in a single site below (355 patients are from
 
 
 ### Concept Sets
-[R2D2 Phenotype Documentation, Version 3.1 (Last updated 9/3/2020)](https://github.com/DBMI/R2D2-Queries/tree/master/ElectronicPhenotype/COVID-19)
+[R2D2 Phenotype Documentation, Version 3.1]
 
 
 ### SQL Code
