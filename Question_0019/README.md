@@ -12,7 +12,7 @@ Among adults hospitalized with COVID-19, how does the in-hospital mortality rate
 
 
 ### Concept Set
-* [Glucocorticoids](http://atlas-covid19.ohdsi.org/#/conceptset/788/details)
+* #788 [H02AB Glucocorticoids](https://github.com/DBMI/R2D2-Public/blob/master/Question_0019/concepts/JSON/788_R2D2_AtlasCovid19__H02AB_Glucocorticoids.json)
 
 ### SQL Code
 Description about the [SQL](sql/template_query.sql)
