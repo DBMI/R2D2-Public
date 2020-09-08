@@ -4,6 +4,9 @@ What is the incidence in Hispanic vs. Non-Hispanic ethnicity among hospitalized 
 ### Reworded Question
 Among adults hospitalized with COVID-19, how many had a Hispanic or LatinX ethnicity?
 
+### Link
+https://covid19questions.org/component/content/article/32-q-a/67-among-adults-hospitalized-with-covid-19-how-many-had-a-hispanic-or-latinx-ethnicity?Itemid=279
+
 ### Request
 | Requestor name | Requestor Institution| Request date | Requestor email        |
 |----------------|----------------------|--------------|------------------------|
