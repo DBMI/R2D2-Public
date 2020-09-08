@@ -5,6 +5,9 @@ stratified by age group/gender/ethnicity/race?
 ### Reworded Question
 Among adults hospitalized with COVID-19, how does the in-hospital mortality rate compare per use of glucocorticoids, stratified by age, ethnicity, gender and race?  Use is defined as any use of glucocorticoids up to one year prior to hospitalization.
 
+### Link
+https://covid19questions.org/component/content/article/32-q-a/80-among-adults-hospitalized-with-covid-19-how-does-the-in-hospital-mortality-rate-compare-per-use-of-glucocorticoids-stratified-by-age-ethnicity-gender-and-race?Itemid=279
+
 ### Request
 | Requestor name | Requestor Institution| Request date | Requestor email        |
 |----------------|----------------------|--------------|------------------------|
