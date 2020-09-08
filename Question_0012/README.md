@@ -7,6 +7,9 @@ Among adults hospitalized with COVID-19, what is the mortality rate stratified b
 (b) history of diabetes, and 
 (c) hemoglobin A1c level? 
 
+### Link
+https://covid19questions.org/component/content/article/32-q-a/74-among-adults-hospitalized-with-covid-19-what-is-the-mortality-rate-stratified-by-a-history-of-diabetes-b-history-of-heart-disease-and-c-hemoglobin-a1c-level?Itemid=279
+
 ### Request
 | Requestor name | Requestor Institution| Request date | Requestor email        |
 |----------------|----------------------|--------------|------------------------|
