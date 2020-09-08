@@ -4,6 +4,9 @@ What is the outcome, ICU transfer, by subgroup (age, ethnicity, gender, and race
 ### Reworded Question
 Among adults hospitalized with COVID-19, how many had an ICU stay per subgroup (age, ethnicity, gender and race)?
 
+### Link
+https://covid19questions.org/component/content/article/32-q-a/69-among-adults-hospitalized-with-covid-19-how-many-had-an-icu-stay-per-subgroup-age-ethnicity-gender-and-race?Itemid=279
+
 ### Request
 | Requestor name | Requestor Institution| Request date | Requestor email        |
 |----------------|----------------------|--------------|------------------------|
