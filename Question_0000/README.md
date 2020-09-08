@@ -10,7 +10,7 @@ The canonical SQL does not consider COVID-19 related hospitalizations, which wil
 
 
 ### Concept Sets
-[R2D2 Phenotype Documentation, Version 3.1]
+[R2D2 Phenotype Documentation, Version 3.1](https://github.com/DBMI/R2D2-Queries/tree/master/ElectronicPhenotype/COVID-19)
 
 
 ### SQL Code
