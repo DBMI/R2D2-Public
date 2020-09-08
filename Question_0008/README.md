@@ -4,6 +4,9 @@ What is the outcome, death, by subgroup (age, ethnicity, gender, and race) among
 ### Reworded Question
 Among adults hospitalized with COVID-19, how does the in-hospital mortality rate compare per subgroup (age, ethnicity, gender and race)?
 
+### Link
+https://covid19questions.org/component/content/article/32-q-a/71-among-adults-hospitalized-with-covid-19-how-does-the-in-hospital-mortality-rate-compare-per-subgroup-age-ethnicity-gender-and-race?Itemid=279
+
 ### Request
 | Requestor name | Requestor Institution| Request date | Requestor email        |
 |----------------|----------------------|--------------|------------------------|
