@@ -4,13 +4,9 @@ What is the performance of [the canonical SQL](sql/template_query.sql) in identi
 1. **Private Reference** ground truth, private to an institution, NOT comparable between institutions and typically obtained from an institutional registry or EHR system 
 2. **Universal Reference** status of PCR test results, comparable between institutions and can be obtained from (EHR / OMOP/ other source)
 
-After uploading the query results of [the canonical SQL](sql/template_query.sql), please feel free to upload additional SQL to this GitHub repo to investigate condition components and lab results together with inclusion/exclusion criteria. 
 
 ### Note
 The canonical SQL does not consider COVID-19 related hospitalizations, which will be handled separately in a question-specific SQL.
-
-The evalution of the canoncial SQL in a single site below (355 patients are from affilate hospitals and the detailed records are not accessible to R2D2 project due to institutional policy).
-![Example Results](results/example.png)
 
 
 ### Concept Sets
