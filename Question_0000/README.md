@@ -26,5 +26,5 @@ The canonical SQL does not consider COVID-19 related hospitalizations, which wil
 [SQL](https://github.com/DBMI/R2D2-Queries/blob/master/Question_0000/sql/template_identify_hospitalization_encounters.sql)
 1. Patients aged 18 and older
 2. Have a record of hospitalization (either Inpatient (IP) or Emergency room to Inpatient (EI)) after 1/1/2020
-3. Have a record of positive PCR test result for SARS-COV-2 or patients with COVID-19 diagnosis (using OMOP concept identifiers) upto 21 days prior to hospitalization or during the hospital stay
+3. Have a record of positive PCR test result for SARS-COV-2 or COVID-19 diagnosis upto 21 days prior to hospitalization or during the hospital stay
 
