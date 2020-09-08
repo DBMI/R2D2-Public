@@ -4,6 +4,9 @@ Among patients with COVID-19, what is the association between RDW (Red Cell Dist
 ### Reworded Question (stratification removed per 7/31/20 decision)
 Among hospitalized patients with COVID-19, what is the association between RDW (Red Cell Distribution Width) and the risk of death in hospital?
 
+### Link
+https://covid19questions.org/component/content/article/32-q-a/64-among-hospitalized-patients-with-covid-19-what-is-the-association-between-red-cell-distribution-width-rdw-and-the-risk-of-death-in-the-hospital?Itemid=279
+
 ### Request
 | Requestor name | Requestor Institution| Request date | Requestor email        |
 |----------------|----------------------|--------------|------------------------|
