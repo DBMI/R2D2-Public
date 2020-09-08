@@ -1,5 +1,5 @@
 ### Question
-What is the performance of [the canonical SQL](sql/template_query.sql) in identifying the **patients with positive PCR test result for SARS-COV-2 or patients with COVID-19 diagnosis after 1/1/2020** against two references, **Private Reference** and **Universal Reference**, defined as:
+What is the performance of [the canonical SQL](sql/template_query.sql) in identifying the **patients with positive PCR test result for SARS-COV-2 or patients with COVID-19 diagnosis** against two references, **Private Reference** and **Universal Reference**, defined as:
 
 1. **Private Reference** ground truth, private to an institution, NOT comparable between institutions and typically obtained from an institutional registry or EHR system 
 2. **Universal Reference** status of PCR test results, comparable between institutions and can be obtained from (EHR / OMOP/ other source)
