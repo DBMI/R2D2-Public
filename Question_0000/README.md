@@ -15,14 +15,14 @@ The canonical SQL does not consider COVID-19 related hospitalizations, which wil
 
 ### SQL Code
 
-####COVID patients####
+####COVID patients####<br>
 [SQL](https://github.com/DBMI/R2D2-Queries/blob/master/Question_0000/sql/template_identify_patients.sql) 
 1. identifies the patients with positive PCR test result for SARS-COV-2 or patients with COVID-19 diagnosis using OMOP concept identifiers
 2. replaces the local institutional methods to identify the COVID-19 patients (e.g. registry)
 3. leans on the [CDC guidelines](https://www.cdc.gov/nchs/data/icd/COVID-19-guidelines-final.pdf), also reflecting [N3C cohort definition](https://github.com/National-COVID-Cohort-Collaborative/Phenotype_Data_Acquisition)
 4. produces reliable results after evaluation at 8 sites.
 
-####COVID related hospitalizations####
+####COVID related hospitalizations####<br>
 [SQL](https://github.com/DBMI/R2D2-Queries/blob/master/Question_0000/sql/template_identify_hospitalization_encounters.sql)
 1. Patients aged 18 and older
 2. Have a record of hospitalization (either Inpatient (IP) or Emergency room to Inpatient (EI)) after 1/1/2020
