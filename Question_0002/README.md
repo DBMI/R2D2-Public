@@ -4,6 +4,9 @@ For adult hospitalized COVID-19 patients who are not admitted to ICU during thei
 ### Reworded Question
 Many adult COVID-19 patients who were hospitalized did not get admitted to the ICU and were discharged alive.  How many returned to the hospital within a week, either to the ER or for another hospital stay?
 
+### Link
+https://covid19questions.org/component/content/article/32-q-a/72-many-adult-covid-19-patients-who-were-hospitalized-did-not-get-admitted-to-the-icu-and-were-discharged-alive-how-many-returned-to-the-hospital-within-a-week-either-to-the-er-or-for-another-hospital-stay?Itemid=279
+
 ### Request
 | Requestor name | Requestor Institution| Request date | Requestor email        |
 |----------------|----------------------|--------------|------------------------|
