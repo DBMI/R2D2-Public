@@ -1,8 +1,8 @@
 ### Question
 Among adults hospitalized with COVID-19, what is the mortality rate stratified by: 
-(a) history of coronary heart disease, 
-(b) history of diabetes, and 
-(c) hemoglobin A1c level (<=7% or >7%)? 
+<br>(a) history of coronary heart disease,
+<br>(b) history of diabetes, and 
+<br>(c) hemoglobin A1c level (<=7% or >7%)? 
 
 ### Request
 | Requestor name | Requestor Institution| Request date | Requestor email        |
