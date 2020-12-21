@@ -1,13 +1,6 @@
 /*********************************************************************************************************
 
 Modifications made by Kai Post k1post@health.ucsd.edu 09/08/2020 for compatibility with SQLRender:
-
-Removed code utilizing lines such as the following due to incompatiblity with SQLRender translations:
-        if object_id('tempdb.dbo.#temptable') is not null drop table #temptable
-        
-@cdm_schema             -- UCSD OMOP CDM Schema: 'OMOP_v5.OMOP5'
-@vocab_schema           -- UCSD OMOP Vocabulary Schema:'OMOP_Vocabulary.vocab_51'
-@icu_care_site_ids      -- The comma-seperated lists of ICU care site IDs.
                         
 Example of getting this query ready to run using RStudio and SQLRender:
 
@@ -78,7 +71,6 @@ Updates in this version:
 {DEFAULT @cdm_schema = 'OMOP_v5.OMOP5'} -- Target OMOP CDM database + schema
 {DEFAULT @r2d2_schema = 'OMOP_v5.R2D2'} -- Target OMOP R2D2 database + schema
 {DEFAULT @vocab_schema  = 'OMOP_Vocabulary.vocab_51'} -- Target OMOP CDM Vocabulary database + schema
-{DEFAULT @covid_pos_cohort_id = 100200} -- COVID-19 confirmed positive cohort
 {DEFAULT @icu_care_site_ids = '710203,710303,710310,710311,710312,710810,700103,700203,700204,700503'} -- Your ICU department site codes
 {DEFAULT @sitename = 'Site10'}
 {DEFAULT @minAllowedCellCount = 0}		--Threshold for minimum counts displayed in results. Possible values are 0 or 11
@@ -340,7 +332,7 @@ Section 4:			Results
 
 	
 	--- Mask cell counts 
-	select Institution, covariate_name, covariate_value, Exposure_variable_name, Exposure_variable_value, Outcome_name, Outcome_value
+	select Institution, covariate_name, covariate_value, 'Exposure_variable_name', 'Exposure_variable_value', Outcome_name, Outcome_value
 	, case when @minAllowedCellCount = 0 then try_convert(varchar(20), EncounterCount)
 			when @minAllowedCellCount = 11 and EncounterCount between 1 and 10 then '[1-10]' 
 			when @minAllowedCellCount = 11 and EncounterCount = 0 or EncounterCount >=11 then  try_convert(varchar(20), EncounterCount)
