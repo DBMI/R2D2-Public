@@ -10,7 +10,7 @@ Author email: paulina@health.ucsd.edu
 Invested work hours at initial git commit: 8
 Version : 3.1
 Initial git commit date: 06/11/2020
-Last modified date: 08/13/2020
+Last modified date: 12/08/2020
 
 Instructions: 
 -------------
@@ -32,12 +32,10 @@ Section 4: Report in a tabular format
 
 Updates in this version:
 -------------------------
-1) Used R2D2 COVID-19 concept sets and hospitalization definition instead of local institutional definition
-2) Removed [0-17] age category
-3) Added additional columns Exposure_variable_name and Exposure_variable_value
-4) Added additional columns Outcome_name and Outcome_value to display the outcome name
-5) All demographic categories are displayed in the results even if counts are 0
-3) Added result cell suppression logic
+1) Modified Race categories to split 'Other' from 'Other/ Unknown'. Lines #107-110; #137-146; #172
+2) Monthly counts instead of cumulative counts. Lines #54; #158-163; #196-216; #225-356
+3) Only including completed visits (ie visit_end_date >= visit_start_date + 1 day). Line #175
+4) Counts w/o demographic breakdown. Lines #342 - 364
 
 *************************************************************************************************************/
 
@@ -53,6 +51,7 @@ declare @minAllowedCellCount int = 0;			--Threshold for minimum counts displayed
 -------- do not update ---------
 declare @version numeric(2,1) = 3.1	;
 declare @queryExecutionDate datetime = (select getdate());
+declare @cohortStartDate date = '2020-01-01'
 
 /************************************************************************************************************* 
 	Section 1: Get COVID hospitalizations using R2D2 concept sets 
@@ -82,7 +81,6 @@ insert into #covid_hsp (visit_occurrence_id, person_id, visit_concept_id, visit_
 exec R2D2.sp_identify_hospitalization_encounters	--- gets COVID hospitalizations
 
 
-
 /************************************************************************************************************* 
 	Section 2: Concept sets specific to question (R2D2 Atlas)
 **************************************************************************************************************/
@@ -97,22 +95,24 @@ exec R2D2.sp_identify_hospitalization_encounters	--- gets COVID hospitalizations
 	-- Create full set of permissible concepts  (gender, race, ethnicity, age-range)
 	if object_id('tempdb.dbo.#gender') is not null drop table #gender  
 	select concept_id covariate_id, domain_id covariate_name, concept_name covariate_value 
-	into #gender from OMOP_v5.vocab5.CONCEPT 
+	into #gender from CONCEPT 
 	where domain_id = 'Gender' and standard_concept = 'S' 
 	union 
 	select 0, 'Gender', 'Unknown' 
 
+
 	if object_id('tempdb.dbo.#race') is not null drop table #race  
-	select concept_id covariate_id, domain_id covariate_name, concept_name covariate_value  
-	into #race from OMOP_v5.vocab5.CONCEPT 
-	where domain_id = 'race' and standard_concept = 'S' 
-	and concept_code  in ('1','2','3','4','5')
-	union 
-	select 0, 'Race', 'Unknown' 
+	select concept_id covariate_id, domain_id covariate_name, concept_name covariate_value , concept_code
+	into #race from CONCEPT 
+	where domain_id = 'race' --and standard_concept = 'S' 
+	and concept_code  in ('1','2','3','4','5','9','UNK')
+	--union 
+	--select 0, 'Race', 'Unknown' , 'No matching concept'
+
 	
 	if object_id('tempdb.dbo.#ethnicity') is not null drop table #ethnicity  
 	select concept_id covariate_id, domain_id covariate_name, concept_name covariate_value  
-	into #ethnicity from OMOP_v5.vocab5.CONCEPT 
+	into #ethnicity from CONCEPT 
 	where domain_id = 'ethnicity' and standard_concept = 'S' 
 	union 
 	select 0, 'Ethnicity', 'Unknown' 
@@ -134,7 +134,18 @@ exec R2D2.sp_identify_hospitalization_encounters	--- gets COVID hospitalizations
 	, 0 as Exposure_variable_id
 
 	, case when gender.covariate_id is null then 0 else p.gender_concept_id end gender_concept_id 
-	, case when race.covariate_id is null then 0 else p.race_concept_id end race_concept_id 
+	--, case when race.covariate_id is null then 0 else p.race_concept_id end race_concept_id 
+	, p.race_concept_id person_race_concept_id, p.race_source_value, race.concept_code
+	, case when race.concept_code = '1' or race.concept_code like '1.%' then 8657			-- American Indian or Alaska Native
+		  when race.concept_code = '2' or race.concept_code like '2.%' then 8515			-- Asian
+		  when race.concept_code = '3' or race.concept_code like '3.%' then 8516			-- Black or African American
+		  when race.concept_code = '4' or race.concept_code like '4.%' then 8557			-- Native Hawaiian or Other Pacific Islander
+		  when race.concept_code = '5' or race.concept_code like '5.%' then 8527			-- White
+		  when race.concept_code = '9' or race.concept_id in (44814649, 44814659) then 8522	-- Other Race
+		  else 8552																			-- Unknown
+	 end as race_concept_id 
+
+
 	, case when ethnicity.covariate_id is null then 0 else p.ethnicity_concept_id end ethnicity_concept_id 
 	, case when round(hsp.AgeAtVisit ,2) between 18 and 30 then 1
 		when round(hsp.AgeAtVisit ,2) between 31 and 40 then 2
@@ -144,17 +155,26 @@ exec R2D2.sp_identify_hospitalization_encounters	--- gets COVID hospitalizations
 		when round(hsp.AgeAtVisit ,2) between 71 and 80 then 6
 		when round(hsp.AgeAtVisit ,2) > 80 then 7
 	else 8 end as age_id
+	, concat('[', try_cast(year(visit_end_datetime) as varchar(4)), '-',
+	 case 
+		when len(try_cast(MONTH(visit_end_datetime) as varchar(2))) <2 then '0' + try_cast(MONTH(visit_end_datetime) as varchar(2))
+		else try_cast(MONTH(visit_end_datetime) as varchar(2))
+		end , ']'
+	 ) [Visit_date]
+
 
 	into #patients 
 	from #covid_hsp hsp 
-	left join OMOP5.person p on p.person_id = hsp.person_id
+	left join person p on p.person_id = hsp.person_id
 
 	left join #gender gender on gender.covariate_id = p.gender_concept_id
-	left join #race race on race.covariate_id = p.race_concept_id
+	left join CONCEPT race on race.concept_id = p.race_concept_id
+	--left join #race race on race.covariate_id = p.race_concept_id
 	left join #ethnicity ethnicity on ethnicity.covariate_id = p.ethnicity_concept_id
+	
+	where datediff(dd, hsp.visit_start_datetime, hsp.visit_end_datetime) >= 1 --only include completed hospitalizations/ encounters with LOS of atleast 1 day 
 
-
-
+	
 /**************************************************************************************************
 Section 4:			Results
 **************************************************************************************************/
@@ -173,10 +193,34 @@ Section 4:			Results
 	select 1, 'Hospital_Mortality' , 'deceased_during_hospitalization'
 
 
+	if object_id('tempdb.dbo.#Visit_date') is not null drop table #Visit_date 
+	create table #Visit_date (Visit_date varchar(10))
+
+	declare @i int = 0
+	declare @monthsBetween int = datediff(mm, @cohortStartDate, getdate()) +1
+	declare @dateVar date = @cohortStartDate
+
+	-- months
+	while @i < @monthsBetween
+	begin 
+		insert into #Visit_date (Visit_date)
+		select concat('[', try_cast(year(@dateVar) as varchar(4)), '-',
+		 case 
+			when len(try_cast(MONTH(@dateVar) as varchar(2))) <2 then '0' + try_cast(MONTH(@dateVar) as varchar(2))
+			else try_cast(MONTH(@dateVar) as varchar(2))
+			end , ']'
+		 )
+
+		set @dateVar = dateadd(mm, 1, @dateVar)	--add 1 month to date
+		set @i= @i +1							--increment counter
+	end
+
+
 
 
 --Section B: Results
 	if object_id('tempdb.dbo.#results') is not null drop table #results
+
 	--Gender
 	select @sitename Institution
 	, m.covariate_name 
@@ -185,6 +229,7 @@ Section 4:			Results
 	, m.Exposure_variable_value 
 	, m.outcome_name Outcome_name
 	, m.outcome_value Outcome_value
+	, m.Visit_date Visit_date
 	, count(distinct visit_occurrence_id) EncounterCount
 	, count(distinct person_id) PatientCount
 	, @version Query_Version
@@ -193,11 +238,14 @@ Section 4:			Results
 	from (select * from  #gender
 			cross join  #Exposure_variable
 			cross join #outcome
+			cross join #Visit_date
 		) m 
 	left join #patients p on m.Exposure_variable_id = p.Exposure_variable_id
 		and m.outcome_id = p.Outcome_id
 		and m.covariate_id = p.gender_concept_id
+		and m.Visit_date = p.Visit_date
 	group by m.covariate_name, m.covariate_value, m.Exposure_variable_name, m.Exposure_variable_value, m.outcome_name, m.outcome_value
+	, m.Visit_date
 
 	union 
 
@@ -209,6 +257,7 @@ Section 4:			Results
 	, m.Exposure_variable_value 
 	, m.outcome_name Outcome_name
 	, m.outcome_value Outcome_value
+	, m.Visit_date Visit_date
 	, count(distinct visit_occurrence_id) EncounterCount
 	, count(distinct person_id) PatientCount
 	, @version Query_Version
@@ -216,12 +265,15 @@ Section 4:			Results
 	from (select * from  #race
 			cross join  #Exposure_variable
 			cross join #outcome
+			cross join #Visit_date
 		) m 
 	left join #patients p on m.Exposure_variable_id = p.Exposure_variable_id
 		and m.outcome_id = p.Outcome_id
 		and m.covariate_id = p.race_concept_id
+		and m.Visit_date = p.Visit_date
 	group by m.covariate_name, m.covariate_value, m.Exposure_variable_name, m.Exposure_variable_value, m.outcome_name, m.outcome_value
-	
+	, m.Visit_date 
+
 	union 
 
 	--ethnicity
@@ -232,6 +284,7 @@ Section 4:			Results
 	, m.Exposure_variable_value 
 	, m.outcome_name Outcome_name
 	, m.outcome_value Outcome_value
+	, m.Visit_date Visit_date
 	, count(distinct visit_occurrence_id) EncounterCount
 	, count(distinct person_id) PatientCount
 	, @version Query_Version
@@ -239,13 +292,15 @@ Section 4:			Results
 	from (select * from  #ethnicity
 			cross join  #Exposure_variable
 			cross join #outcome
+			cross join #Visit_date
 		) m 
 	left join #patients p on m.Exposure_variable_id = p.Exposure_variable_id
 		and m.outcome_id = p.Outcome_id
 		and m.covariate_id = p.ethnicity_concept_id
+		and m.Visit_date = p.Visit_date
 	group by m.covariate_name, m.covariate_value, m.Exposure_variable_name, m.Exposure_variable_value, m.outcome_name, m.outcome_value
+	, m.Visit_date 
 
-	
 	union 
 
 	--age range
@@ -256,6 +311,7 @@ Section 4:			Results
 	, m.Exposure_variable_value 
 	, m.outcome_name Outcome_name
 	, m.outcome_value Outcome_value
+	, m.Visit_date Visit_date
 	, count(distinct visit_occurrence_id) EncounterCount
 	, count(distinct person_id) PatientCount
 	, @version Query_Version
@@ -263,18 +319,46 @@ Section 4:			Results
 	from (select * from  #age_range
 			cross join  #Exposure_variable
 			cross join #outcome
+			cross join #Visit_date
 		) m 
 	left join #patients p on m.Exposure_variable_id = p.Exposure_variable_id
 		and m.outcome_id = p.Outcome_id
 		and m.covariate_id = p.age_id
+		and m.Visit_date = p.Visit_date
 	group by m.covariate_name, m.covariate_value, m.Exposure_variable_name, m.Exposure_variable_value, m.outcome_name, m.outcome_value
+	, m.Visit_date 
 
-	order by Exposure_variable_name, covariate_name, covariate_value, Exposure_variable_value, Outcome_name, Outcome_value
+	union 
 
+	-- counts w/o demographic breakdown
+	select @sitename Institution
+	, 'none' covariate_name 
+	, 'none' covariate_value 
+	, m.Exposure_variable_name
+	, m.Exposure_variable_value 
+	, m.outcome_name Outcome_name
+	, m.outcome_value Outcome_value
+	, m.Visit_date Visit_date
+	, count(distinct visit_occurrence_id) EncounterCount
+	, count(distinct person_id) PatientCount
+	, @version Query_Version
+	, @queryExecutionDate Query_Execution_Date
+	from (select * from #Exposure_variable
+			cross join #outcome
+			cross join #Visit_date
+		) m 
+	left join #patients p on m.Exposure_variable_id = p.Exposure_variable_id
+		and m.outcome_id = p.Outcome_id
+		and m.Visit_date = p.Visit_date
+	group by  m.Exposure_variable_name, m.Exposure_variable_value, m.outcome_name, m.outcome_value
+	, m.Visit_date 
+
+	order by Exposure_variable_name, covariate_name, covariate_value, Exposure_variable_value, Outcome_name, Outcome_value, Visit_date
 
 	
 	--- Mask cell counts 
 	select Institution, covariate_name, covariate_value, Exposure_variable_name, Exposure_variable_value, Outcome_name, Outcome_value
+	, Visit_date
 	, case when @minAllowedCellCount = 0 then try_convert(varchar(20), EncounterCount)
 			when @minAllowedCellCount = 11 and EncounterCount between 1 and 10 then '[1-10]' 
 			when @minAllowedCellCount = 11 and EncounterCount = 0 or EncounterCount >=11 then  try_convert(varchar(20), EncounterCount)
