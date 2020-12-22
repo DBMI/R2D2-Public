@@ -1,3 +1,5 @@
+## In-Hospital Mortality
+
 ### Question
 Among adults hospitalized with COVID-19, how does the in-hospital mortality rate compare per subgroup (age, ethnicity, sex and race)?
 
