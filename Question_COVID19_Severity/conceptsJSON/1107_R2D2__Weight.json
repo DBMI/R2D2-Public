@@ -1,0 +1,803 @@
+{
+  "items": [
+    {
+      "concept": {
+        "CONCEPT_ID": 4149455,
+        "CONCEPT_NAME": "Baby birth weight 2.0-2.5kg",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "310538001",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4149609,
+        "CONCEPT_NAME": "Birth weight 1000-2499 g",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "310659001",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4149610,
+        "CONCEPT_NAME": "Birth weight 999 g or less",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "310660006",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40759213,
+        "CONCEPT_NAME": "Birth weight GNWCH",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "56092-0",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3011043,
+        "CONCEPT_NAME": "Birth weight Measured",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "8339-4",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40759214,
+        "CONCEPT_NAME": "Birth weight NVSS",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "56093-8",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40759215,
+        "CONCEPT_NAME": "Birth weight [NHANES]",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "56094-6",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4187520,
+        "CONCEPT_NAME": "Birth weight finding",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "47340003",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 43533987,
+        "CONCEPT_NAME": "Body muscle mass/Body weight Measured",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "73965-6",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4099154,
+        "CONCEPT_NAME": "Body weight",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "27113001",
+        "DOMAIN_ID": "Observation",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Observable Entity"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3025315,
+        "CONCEPT_NAME": "Body weight",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "29463-7",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 46234683,
+        "CONCEPT_NAME": "Body weight - Reported --usual",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "75292-3",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40759204,
+        "CONCEPT_NAME": "Body weight --XXX time ago",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "56083-9",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 21492642,
+        "CONCEPT_NAME": "Body weight --used for drug calculation",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "79348-9",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3026600,
+        "CONCEPT_NAME": "Body weight Estimated",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "8335-2",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3013762,
+        "CONCEPT_NAME": "Body weight Measured",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "3141-9",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3013853,
+        "CONCEPT_NAME": "Body weight Measured --ante partum",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "8338-6",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3009617,
+        "CONCEPT_NAME": "Body weight Measured --post dialysis",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "8344-4",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3010147,
+        "CONCEPT_NAME": "Body weight Measured --post partum",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "8345-1",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3015644,
+        "CONCEPT_NAME": "Body weight Measured --postoperative",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "8346-9",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3019336,
+        "CONCEPT_NAME": "Body weight Measured --pre dialysis",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "8347-7",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3022281,
+        "CONCEPT_NAME": "Body weight Measured --pre pregnancy",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "8348-5",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3005422,
+        "CONCEPT_NAME": "Body weight Measured --preoperative",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "8349-3",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40761330,
+        "CONCEPT_NAME": "Body weight Measured --when specimen taken",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "58229-6",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3010220,
+        "CONCEPT_NAME": "Body weight Measured --with clothes",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "8350-1",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3011054,
+        "CONCEPT_NAME": "Body weight Measured --without clothes",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "8351-9",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3023166,
+        "CONCEPT_NAME": "Body weight Stated",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "3142-7",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3013131,
+        "CONCEPT_NAME": "Body weight [Percentile] Per age",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "8336-0",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3005778,
+        "CONCEPT_NAME": "Body weight at ambulance transport Set",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "18584-3",
+        "DOMAIN_ID": "Observation",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Claims Attachment"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40759190,
+        "CONCEPT_NAME": "Body weight.max [Reported]",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "56069-8",
+        "DOMAIN_ID": "Observation",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3026659,
+        "CONCEPT_NAME": "Dry body weight Estimated",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "8340-2",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3027492,
+        "CONCEPT_NAME": "Dry body weight Measured",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "8341-0",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4173323,
+        "CONCEPT_NAME": "Extremely low birth weight infant",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "276612004",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3003176,
+        "CONCEPT_NAME": "Fetal Body weight estimated by US",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "11727-5",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4079859,
+        "CONCEPT_NAME": "High birth weight",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "276613009",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3032445,
+        "CONCEPT_NAME": "Ideal body weight",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "50064-5",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37020574,
+        "CONCEPT_NAME": "Lean body weight",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "91557-9",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 36305481,
+        "CONCEPT_NAME": "Lean body weight Calculated",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "88334-8",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3010914,
+        "CONCEPT_NAME": "Lean body weight estimated by Immersion method",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "8342-8",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3028543,
+        "CONCEPT_NAME": "Lean body weight estimated by Skin fold method",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "8343-6",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4171115,
+        "CONCEPT_NAME": "Low birth weight infant",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "276610007",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40771968,
+        "CONCEPT_NAME": "Mother's body weight --at delivery",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "69461-2",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4183890,
+        "CONCEPT_NAME": "Normal weight",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "43664005",
+        "DOMAIN_ID": "Observation",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40765046,
+        "CONCEPT_NAME": "PhenX - weight - self reported weight protocol 021502",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "62298-5",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40759189,
+        "CONCEPT_NAME": "Self-Reported Maximum Adult Weight",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "56068-0",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4079858,
+        "CONCEPT_NAME": "Very low birth weight infant",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "276611006",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4030015,
+        "CONCEPT_NAME": "Weight finding",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "107647005",
+        "DOMAIN_ID": "Observation",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    }
+  ]
+}
