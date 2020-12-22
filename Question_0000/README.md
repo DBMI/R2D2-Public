@@ -1,3 +1,5 @@
+## Canoncial SQL
+
 ### Question
 What is the performance of the [canonical SQL](sql/canonicalSQL_template_query.sql) in identifying the <br>
 **patients with positive PCR test result for SARS-COV-2 or patients with COVID-19 diagnosis** <br>
