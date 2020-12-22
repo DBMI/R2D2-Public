@@ -1,5 +1,7 @@
 --  Question details are being finalized!
 
+## Smoking
+
 ### Question
 Among adults hospitalized with COVID-19, how does the mortality rate among smokers compare to non-smokers?
 
@@ -28,7 +30,6 @@ Update in progress. [as of 12/22/2020]
 
 ### Results published on covid19questions.org
 No results have been published yet. [as of 12/22/2020]
-
 
 ### Other info
   * OMOP CDM [version 5.3](https://github.com/OHDSI/CommonDataModel/releases/tag/v5.3.0) and OMOP CDM [version 6.0](https://github.com/OHDSI/CommonDataModel/wiki)
