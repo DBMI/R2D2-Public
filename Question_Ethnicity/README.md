@@ -1,3 +1,5 @@
+## Ethnicity
+
 ### Question
 Among adults hospitalized with COVID-19, how many had a Hispanic or LatinX ethnicity?
 
