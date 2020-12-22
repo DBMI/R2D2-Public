@@ -1,4 +1,4 @@
--- This question is still under progress!
+-- Question details are being finalized!
 
 ## COVID-19 Severity
 
