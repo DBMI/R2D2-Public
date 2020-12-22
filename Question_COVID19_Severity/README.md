@@ -1,10 +1,14 @@
-## Question compact
+### Question
 “Among adult, hospitalized COVID-19 patients, what was the association between a combined severity endpoint (in-hospital mortality, invasive/non-invasive mechanical ventilation, or ICU transfer) and the following exposures: 
 demographic variables (age, gender, race, ethnicity), body mass index, comorbidities (history of arterial hypertension, diabetes mellitus, coronary artery disease, chronic heart failure with reduced/preserved ejection fraction, asthma, COPD, cancer [breast/prostate/lung/colorectal/blood cell/melanoma/bladder/kidney/endometrium/pancreas], HIV, transplant [kidney/liver/lung/heart], chronic kidney disease, chronic liver disease), blood type A vs. non-A, and selected laboratory values (D-dimer, troponin I, troponin T, C-reactive protein, absolute lymphocyte count, neutrophils/leukocytes ratio, ferritin, LDH, direct bilirubin, albumin, BUN, creatinine)?”
 
+### Request
+| Requestor name | Requestor Institution| Request date | Requestor email        |
+|----------------|----------------------|--------------|------------------------|
+|      | Massachusetts General Hospital & LMU Munich      | 8/31/2020    |  |
 
 ## Question Details
-### Question
+### Question (compact)
 Among adult, hospitalized COVID-19 patients, what patient factors are
 associated with COVID-19 severity (combined endpoint of mortality, need for ventilation,
 or ICU transfer)?
@@ -55,12 +59,6 @@ Combined severity endpoint of
 ### Statistical methods
   * Part I: Descriptive analysis
   * Part II: Logistic regression
-
-### Request
-| Requestor name | Requestor Institution| Request date | Requestor email        |
-|----------------|----------------------|--------------|------------------------|
-|      | Massachusetts General Hospital & LMU Munich      | 8/31/2020    |  |
-
 
 ### Concept Sets
 * #290 [Mechanical Ventilation](http://54.200.195.177/atlas/#/conceptset/290/conceptset-expression) - [Included Concepts count: 284]
@@ -121,7 +119,6 @@ Update in progress. [as of 12/22/2020]
 
 ### Results published on covid19questions.org
 No results have been published yet. [as of 12/22/2020]
-
 
 ### Other info
   * OMOP CDM [version 6.0](https://github.com/OHDSI/CommonDataModel/wiki) and OMOP CDM [version 5.3](https://github.com/OHDSI/CommonDataModel/releases/tag/v5.3.0)
