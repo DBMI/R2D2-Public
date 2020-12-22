@@ -1,8 +1,9 @@
 # Electronic Phenotyping COVID-19
-# R2D2 Phenotype Documentation, Version 3.1 <br> (Last updated 9/4/2020)
+# R2D2 Phenotype Documentation, Version 3.1 <br> (Last phenotype update on 9/4/2020, README update on 12/22/2020)
 
 Objective: To identify a set of hospitalization encounters on/after January 1, 2020, for adult COVID-19 patients with a positive SARS-CoV-2 viral test and/or a positive COVID-19 related diagnosis between the interval of 21 days prior to hospitalization and hospital encounter discharge.
 
+Please find more information on our canonical SQL [here](https://github.com/DBMI/R2D2-Public/tree/master/Question_0000).
 <br><br>
 
 ## Phenotype Inclusion Criteria
