@@ -1,3 +1,5 @@
+-- This question is still under progress!
+
 ### Question
 “Among adult, hospitalized COVID-19 patients, what was the association between a combined severity endpoint (in-hospital mortality, invasive/non-invasive mechanical ventilation, or ICU transfer) and the following exposures: 
 demographic variables (age, gender, race, ethnicity), body mass index, comorbidities (history of arterial hypertension, diabetes mellitus, coronary artery disease, chronic heart failure with reduced/preserved ejection fraction, asthma, COPD, cancer [breast/prostate/lung/colorectal/blood cell/melanoma/bladder/kidney/endometrium/pancreas], HIV, transplant [kidney/liver/lung/heart], chronic kidney disease, chronic liver disease), blood type A vs. non-A, and selected laboratory values (D-dimer, troponin I, troponin T, C-reactive protein, absolute lymphocyte count, neutrophils/leukocytes ratio, ferritin, LDH, direct bilirubin, albumin, BUN, creatinine)?”
