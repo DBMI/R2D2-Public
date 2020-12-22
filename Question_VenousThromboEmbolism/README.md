@@ -1,4 +1,4 @@
--- This question is still under progress!
+ -- Question details are being finalized!
 
 ### Question
 - What are the age, race, ethnicity and gender characteristics associated with <br>
