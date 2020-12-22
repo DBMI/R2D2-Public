@@ -1,4 +1,6 @@
-### Reworded Question
+## Mechanical Ventilation
+
+### Question
 Among adults hospitalized with COVID-19, <br>
 how many were put on a mechanical ventilator per subgroup (age, ethnicity, sex and race)?
 
