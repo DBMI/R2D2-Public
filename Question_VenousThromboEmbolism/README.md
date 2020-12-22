@@ -1,5 +1,7 @@
  -- Question details are being finalized!
 
+## Venous Thromboembolism & Pulmonary Embolism
+
 ### Question
 - What are the age, race, ethnicity and gender characteristics associated with <br>
 **any venous thromboembolism disease including pulmonary embolism** in patients who are COVID-19+?  
@@ -74,7 +76,6 @@ Section 5: Clean up
 
 ### Results published on covid19questions.org
 No results have been published yet. [as of 12/22/2020]
-
 
 ### Other info
   * OMOP CDM [version 5.3](https://github.com/OHDSI/CommonDataModel/releases/tag/v5.3.0) and OMOP CDM [version 6.0](https://github.com/OHDSI/CommonDataModel/wiki)
