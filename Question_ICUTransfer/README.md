@@ -1,3 +1,5 @@
+## Intensive Care Unit (ICU) Transfer
+
 ### Question
 Among adults hospitalized with COVID-19, how many had an ICU stay per subgroup (age, ethnicity, sex and race)?
 
@@ -17,3 +19,6 @@ https://covid19questions.org/component/content/article/32-q-a/69-among-adults-ho
 
 ### Other info
   * OMOP CDM [version 5.3](https://github.com/OHDSI/CommonDataModel/releases/tag/v5.3.0) and OMOP CDM [version 6.0](https://github.com/OHDSI/CommonDataModel/wiki)
+
+### Abbreviations
+ * ICU = Intensive Care Unit
