@@ -1,3 +1,5 @@
+## Coronary Heart Disease, Diabetes, and Hemoglobin A1C Level
+
 ### Question
 Among adults hospitalized with COVID-19, what is the mortality rate stratified by: 
 <br>(a) history of coronary heart disease,
