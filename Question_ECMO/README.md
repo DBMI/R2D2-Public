@@ -1,6 +1,8 @@
+## Extracorporeal Membrane Oxygenation (ECMO)
+
 ### Question
-Among hospitalized COVID-19 patients, what is the mortality rate for 
-patients who were on ECMO at any point during their hospital stay? 
+Among hospitalized COVID-19 patients, what is the mortality rate for <br>
+patients who were on ECMO at any point during their hospital stay? <br>
 What is the breakdown by age, ethnicity, sex and race?
 
 
