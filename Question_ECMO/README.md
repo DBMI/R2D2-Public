@@ -27,3 +27,6 @@ https://covid19questions.org/component/content/article/32-q-a/83-among-hospitali
 
 ### Other info
   * OMOP CDM [version 5.3](https://github.com/OHDSI/CommonDataModel/releases/tag/v5.3.0) and OMOP CDM [version 6.0](https://github.com/OHDSI/CommonDataModel/wiki)
+
+### Abbreviations
+* ECMO = Extracorporeal membrane oxygenation
