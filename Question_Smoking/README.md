@@ -6,7 +6,7 @@ Among adults hospitalized with COVID-19, how does the mortality rate among smoke
 ### Request
 | Requestor name | Requestor Institution| Request date | Requestor email        |
 |----------------|----------------------|--------------|------------------------|
-|    | UC San Diego         | 06/01/2020    |  |
+|    | UT Health         | 06/01/2020    |  |
 
 ### Concept Sets
 - #308 [Smoking Status](http://54.200.195.177/atlas/#/conceptset/308/conceptset-expression) - [Included Concepts count: 31]
