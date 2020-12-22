@@ -1,0 +1,531 @@
+{
+  "items": [
+    {
+      "concept": {
+        "CONCEPT_ID": 4132135,
+        "CONCEPT_NAME": "Absent",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "2667000",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 45876469,
+        "CONCEPT_NAME": "Confirm negative",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LA9045-1",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Answer"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4188308,
+        "CONCEPT_NAME": "Lacking",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "41277001",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 9189,
+        "CONCEPT_NAME": "Negative",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "260385009",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 45878583,
+        "CONCEPT_NAME": "Negative",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LA6577-6",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Answer"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37079494,
+        "CONCEPT_NAME": "Negative (0)",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LA29782-2",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Answer"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4125556,
+        "CONCEPT_NAME": "Nil",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "260386005",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4188540,
+        "CONCEPT_NAME": "No",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "373067005",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4139623,
+        "CONCEPT_NAME": "No growth",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "264868006",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4142853,
+        "CONCEPT_NAME": "No neoplasm",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "264869003",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4128645,
+        "CONCEPT_NAME": "No reaction",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "260389003",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4140560,
+        "CONCEPT_NAME": "Nodules absent",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "264871003",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4128646,
+        "CONCEPT_NAME": "Non-patent",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "260392004",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4125558,
+        "CONCEPT_NAME": "Non-pigmented",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "260393009",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4127776,
+        "CONCEPT_NAME": "Non-vital",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "260390007",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4124462,
+        "CONCEPT_NAME": "None",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "260413007",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4127777,
+        "CONCEPT_NAME": "Noninflammatory",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "260391006",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4068402,
+        "CONCEPT_NAME": "Normal absence",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "17511009",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 9190,
+        "CONCEPT_NAME": "Not detected",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "260415000",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 36309158,
+        "CONCEPT_NAME": "Not detected/negative",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LA13549-3",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Answer"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4142856,
+        "CONCEPT_NAME": "Not isolated",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "264887000",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4124463,
+        "CONCEPT_NAME": "Not itching",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "260416004",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 45878588,
+        "CONCEPT_NAME": "Not present",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LA14895-9",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Answer"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 45878634,
+        "CONCEPT_NAME": "Not presented",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LA9170-7",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Answer"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4165520,
+        "CONCEPT_NAME": "Not seen",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "47492008",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4125559,
+        "CONCEPT_NAME": "Nothing",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "260414001",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4080894,
+        "CONCEPT_NAME": "Null",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "276727009",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4137494,
+        "CONCEPT_NAME": "Receptor absent",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "264915001",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 763703,
+        "CONCEPT_NAME": "Repeatedly non-reactive",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "444991000124106",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4139636,
+        "CONCEPT_NAME": "Superadded infection absent",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "264929000",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Qualifier Value"
+      },
+      "isExcluded": true,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 45877738,
+        "CONCEPT_NAME": "Yes, negative",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LA21226-8",
+        "DOMAIN_ID": "Meas Value",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Answer"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    }
+  ]
+}
