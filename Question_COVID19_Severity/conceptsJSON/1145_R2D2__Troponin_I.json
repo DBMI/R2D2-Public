@@ -1,0 +1,344 @@
+{
+  "items": [
+    {
+      "concept": {
+        "CONCEPT_ID": 4198748,
+        "CONCEPT_NAME": "Plasma troponin I measurement",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "313724009",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Procedure"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3451471,
+        "CONCEPT_NAME": "Plasma troponin I measurement",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "313724009",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Procedure"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4209251,
+        "CONCEPT_NAME": "Serum troponin I measurement",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "313616005",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Procedure"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3448781,
+        "CONCEPT_NAME": "Serum troponin I measurement",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "313616005",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Procedure"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4007805,
+        "CONCEPT_NAME": "Troponin I measurement",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "121870001",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Procedure"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3441257,
+        "CONCEPT_NAME": "Troponin I measurement",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "121870001",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Procedure"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 36304114,
+        "CONCEPT_NAME": "Troponin I.cardiac [Interpretation] in Serum or Plasma Qualitative by High sensitivity method",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "89578-9",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Lab Test"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3033745,
+        "CONCEPT_NAME": "Troponin I.cardiac [Mass/volume] in Blood",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "42757-5",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Lab Test"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3021337,
+        "CONCEPT_NAME": "Troponin I.cardiac [Mass/volume] in Serum or Plasma",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "10839-9",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Lab Test"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3032971,
+        "CONCEPT_NAME": "Troponin I.cardiac [Mass/volume] in Serum or Plasma by Detection limit <= 0.01 ng/mL",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "49563-0",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Lab Test"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 36306105,
+        "CONCEPT_NAME": "Troponin I.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "89579-7",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Lab Test"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 46235895,
+        "CONCEPT_NAME": "Troponin I.cardiac [Presence] in Serum, Plasma or Blood by Rapid immunoassay",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "76399-5",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Lab Test"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3005227,
+        "CONCEPT_NAME": "Troponin I.cardiac [Units/volume] in Serum or Plasma",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "16255-2",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Lab Test"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 36305612,
+        "CONCEPT_NAME": "Troponin I.cardiac panel - Serum or Plasma by High sensitivity method",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "89577-1",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "Lab Test"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37040477,
+        "CONCEPT_NAME": "Troponin I.cardiac panel | Serum or Plasma | Chemistry Panels",
+        "STANDARD_CONCEPT": "C",
+        "STANDARD_CONCEPT_CAPTION": "Classification",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LP387080-7",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "LOINC Hierarchy"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40783217,
+        "CONCEPT_NAME": "Troponin I.cardiac | Bld-Ser-Plas",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "LP41095-8",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "LOINC Hierarchy"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37072384,
+        "CONCEPT_NAME": "Troponin I.cardiac | Blood | Chemistry - non-challenge",
+        "STANDARD_CONCEPT": "C",
+        "STANDARD_CONCEPT_CAPTION": "Classification",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LP385941-2",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "LOINC Hierarchy"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37063873,
+        "CONCEPT_NAME": "Troponin I.cardiac | Serum or Plasma | Chemistry - non-challenge",
+        "STANDARD_CONCEPT": "C",
+        "STANDARD_CONCEPT_CAPTION": "Classification",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LP385942-0",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "LOINC Hierarchy"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37076644,
+        "CONCEPT_NAME": "Troponin I.cardiac | Serum, Plasma or Blood | Chemistry - non-challenge",
+        "STANDARD_CONCEPT": "C",
+        "STANDARD_CONCEPT_CAPTION": "Classification",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LP385943-8",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "LOINC Hierarchy"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40653873,
+        "CONCEPT_NAME": "Troponin I.cardiac|MCnc|Pt|ANYBldSerPl",
+        "STANDARD_CONCEPT": "C",
+        "STANDARD_CONCEPT_CAPTION": "Classification",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "LG433-9",
+        "DOMAIN_ID": "Measurement",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_CLASS_ID": "LOINC Group"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    }
+  ]
+}
