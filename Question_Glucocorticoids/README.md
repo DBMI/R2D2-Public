@@ -1,3 +1,5 @@
+## Glucocorticoids
+
 ### Question
 Among adults hospitalized with COVID-19, how does the in-hospital mortality rate compare per use of glucocorticoids, stratified by age, ethnicity, sex and race?  Use is defined as any use of glucocorticoids up to one year prior to hospitalization.
 
