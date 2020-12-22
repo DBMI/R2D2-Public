@@ -1,3 +1,5 @@
+## Blood Type
+
 ### Question
 Among hospitalized COVID-19 patients, what is the mortality rate for patients with each blood type?
 
