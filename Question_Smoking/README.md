@@ -1,4 +1,4 @@
--- This question is still under progress!
+--  Question details are being finalized!
 
 ### Question
 Among adults hospitalized with COVID-19, how does the mortality rate among smokers compare to non-smokers?
