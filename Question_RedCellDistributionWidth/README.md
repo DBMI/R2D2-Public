@@ -1,3 +1,5 @@
+## Red Cell Distribution Width
+
 ### Question
 Among hospitalized patients with COVID-19, what is the association between RDW (Red Cell Distribution Width) and the risk of death in hospital?
 
@@ -26,3 +28,5 @@ https://covid19questions.org/component/content/article/32-q-a/64-among-hospitali
 ### Other info
   * OMOP CDM [version 5.3](https://github.com/OHDSI/CommonDataModel/releases/tag/v5.3.0) and OMOP CDM [version 6.0](https://github.com/OHDSI/CommonDataModel/wiki)
 
+### Abbreviations
+ * RCDW = Red cell distribution width.
