@@ -1,3 +1,5 @@
+## Seven Day Return Rate
+
 ### Question
 Many adult COVID-19 patients who were hospitalized did not get admitted to the ICU and were discharged alive.  How many returned to the hospital within a week, either to the ER or for another hospital stay?
 
