@@ -1,5 +1,7 @@
  -- Question details are being finalized!
 
+## Human Immunodeficiency Virus (HIV)
+
 ### Question
 For HIV+ patients with COVID-19 related hospitalizations, what are:
 1) Count of Patients hospitalized and count of hospitalization encounters
