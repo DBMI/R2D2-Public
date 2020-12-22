@@ -1,4 +1,4 @@
--- This question is still under progress!
+ -- Question details are being finalized!
 
 ### Question
 Is there a correlation between mortality and Vitamin D deficiency? 
