@@ -1,5 +1,7 @@
  -- Question details are being finalized!
 
+## Troponin
+
 ### Question
 Among adults hospitalized with COVID-19, <br>
 what are the ranges for Troponin T or Troponin I during a hospitalization <br>
