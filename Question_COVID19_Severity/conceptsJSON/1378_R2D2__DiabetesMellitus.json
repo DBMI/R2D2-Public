@@ -87,6 +87,23 @@
     },
     {
       "concept": {
+        "CONCEPT_ID": 4196141,
+        "CONCEPT_NAME": "Arthropathy due to type 2 diabetes mellitus",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "314903002",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
         "CONCEPT_ID": 4060085,
         "CONCEPT_NAME": "At risk of diabetes mellitus",
         "STANDARD_CONCEPT": "S",
@@ -835,13 +852,13 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 35206875,
+        "CONCEPT_ID": 45561943,
         "CONCEPT_NAME": "Diabetes mellitus due to underlying condition with hypoglycemia without coma",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "D",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "E08.640",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E08.649",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD10CM",
         "CONCEPT_CLASS_ID": "6-char billing code"
@@ -852,13 +869,13 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 45561943,
+        "CONCEPT_ID": 35206875,
         "CONCEPT_NAME": "Diabetes mellitus due to underlying condition with hypoglycemia without coma",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E08.649",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "E08.640",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD10CM",
         "CONCEPT_CLASS_ID": "6-char billing code"
@@ -1532,23 +1549,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 45571652,
-        "CONCEPT_NAME": "Diabetes mellitus due to underlying condition without complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E08.9",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "4-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 45571651,
         "CONCEPT_NAME": "Diabetes mellitus due to underlying condition with periodontal disease",
         "STANDARD_CONCEPT": "N",
@@ -1753,91 +1753,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 45561940,
-        "CONCEPT_NAME": "Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E08.359",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "6-char nonbill code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37200077,
-        "CONCEPT_NAME": "Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema, bilateral",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E08.3593",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "7-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37200076,
-        "CONCEPT_NAME": "Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema, left eye",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E08.3592",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "7-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37200075,
-        "CONCEPT_NAME": "Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema, right eye",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E08.3591",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "7-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37200078,
-        "CONCEPT_NAME": "Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema, unspecified eye",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E08.3599",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "7-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 37200055,
         "CONCEPT_NAME": "Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy with traction retinal detachment involving the macula",
         "STANDARD_CONCEPT": "N",
@@ -1998,6 +1913,91 @@
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
         "CONCEPT_CODE": "E08.3539",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "7-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 45561940,
+        "CONCEPT_NAME": "Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E08.359",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "6-char nonbill code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37200077,
+        "CONCEPT_NAME": "Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema, bilateral",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E08.3593",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "7-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37200076,
+        "CONCEPT_NAME": "Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema, left eye",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E08.3592",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "7-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37200075,
+        "CONCEPT_NAME": "Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema, right eye",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E08.3591",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "7-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37200078,
+        "CONCEPT_NAME": "Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema, unspecified eye",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E08.3599",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD10CM",
         "CONCEPT_CLASS_ID": "7-char billing code"
@@ -2365,16 +2365,33 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 45453538,
-        "CONCEPT_NAME": "Diabetes mellitus during pregnancy - baby delivered",
+        "CONCEPT_ID": 45571652,
+        "CONCEPT_NAME": "Diabetes mellitus due to underlying condition without complications",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "L180100",
+        "CONCEPT_CODE": "E08.9",
         "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Read",
-        "CONCEPT_CLASS_ID": "Read"
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "4-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 443012,
+        "CONCEPT_NAME": "Diabetes mellitus during pregnancy - baby delivered",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "199225007",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
       },
       "isExcluded": true,
       "includeDescendants": true,
@@ -2399,16 +2416,16 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 443012,
+        "CONCEPT_ID": 45453538,
         "CONCEPT_NAME": "Diabetes mellitus during pregnancy - baby delivered",
-        "STANDARD_CONCEPT": "S",
-        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "199225007",
+        "CONCEPT_CODE": "L180100",
         "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
+        "VOCABULARY_ID": "Read",
+        "CONCEPT_CLASS_ID": "Read"
       },
       "isExcluded": true,
       "includeDescendants": true,
@@ -2423,57 +2440,6 @@
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
         "CONCEPT_CODE": "199227004",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 45443546,
-        "CONCEPT_NAME": "Diabetes mellitus during pregnancy, childbirth and the puerperium",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "L180.00",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Read",
-        "CONCEPT_CLASS_ID": "Read"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 3106414,
-        "CONCEPT_NAME": "Diabetes mellitus during pregnancy, childbirth and the puerperium",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "156138000",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 4058243,
-        "CONCEPT_NAME": "Diabetes mellitus during pregnancy, childbirth and the puerperium",
-        "STANDARD_CONCEPT": "S",
-        "STANDARD_CONCEPT_CAPTION": "Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "199223000",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
@@ -2501,6 +2467,40 @@
     },
     {
       "concept": {
+        "CONCEPT_ID": 3106414,
+        "CONCEPT_NAME": "Diabetes mellitus during pregnancy, childbirth and the puerperium",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "156138000",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 45443546,
+        "CONCEPT_NAME": "Diabetes mellitus during pregnancy, childbirth and the puerperium",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "L180.00",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Read",
+        "CONCEPT_CLASS_ID": "Read"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
         "CONCEPT_ID": 3309572,
         "CONCEPT_NAME": "Diabetes mellitus during pregnancy, childbirth and the puerperium",
         "STANDARD_CONCEPT": "N",
@@ -2510,6 +2510,23 @@
         "CONCEPT_CODE": "199223000",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4058243,
+        "CONCEPT_NAME": "Diabetes mellitus during pregnancy, childbirth and the puerperium",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "199223000",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
       },
       "isExcluded": true,
@@ -2671,40 +2688,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 44836914,
-        "CONCEPT_NAME": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "250.00",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD9CM",
-        "CONCEPT_CLASS_ID": "5-dig billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 44836915,
-        "CONCEPT_NAME": "Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "250.02",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD9CM",
-        "CONCEPT_CLASS_ID": "5-dig billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 44820682,
         "CONCEPT_NAME": "Diabetes mellitus without mention of complication, type I [juvenile type], not stated as uncontrolled",
         "STANDARD_CONCEPT": "N",
@@ -2729,6 +2712,40 @@
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
         "CONCEPT_CODE": "250.03",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD9CM",
+        "CONCEPT_CLASS_ID": "5-dig billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 44836914,
+        "CONCEPT_NAME": "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "250.00",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD9CM",
+        "CONCEPT_CLASS_ID": "5-dig billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 44836915,
+        "CONCEPT_NAME": "Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "250.02",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD9CM",
         "CONCEPT_CLASS_ID": "5-dig billing code"
@@ -2790,40 +2807,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 44829878,
-        "CONCEPT_NAME": "Diabetes with ketoacidosis, type II or unspecified type, not stated as uncontrolled",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "250.10",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD9CM",
-        "CONCEPT_CLASS_ID": "5-dig billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 44824072,
-        "CONCEPT_NAME": "Diabetes with ketoacidosis, type II or unspecified type, uncontrolled",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "250.12",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD9CM",
-        "CONCEPT_CLASS_ID": "5-dig billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 44824071,
         "CONCEPT_NAME": "Diabetes with ketoacidosis, type I [juvenile type], not stated as uncontrolled",
         "STANDARD_CONCEPT": "N",
@@ -2848,6 +2831,40 @@
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
         "CONCEPT_CODE": "250.13",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD9CM",
+        "CONCEPT_CLASS_ID": "5-dig billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 44829878,
+        "CONCEPT_NAME": "Diabetes with ketoacidosis, type II or unspecified type, not stated as uncontrolled",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "250.10",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD9CM",
+        "CONCEPT_CLASS_ID": "5-dig billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 44824072,
+        "CONCEPT_NAME": "Diabetes with ketoacidosis, type II or unspecified type, uncontrolled",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "250.12",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD9CM",
         "CONCEPT_CLASS_ID": "5-dig billing code"
@@ -2892,40 +2909,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 44831047,
-        "CONCEPT_NAME": "Diabetes with other specified manifestations, type II or unspecified type, not stated as uncontrolled",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "250.80",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD9CM",
-        "CONCEPT_CLASS_ID": "5-dig billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 44826461,
-        "CONCEPT_NAME": "Diabetes with other specified manifestations, type II or unspecified type, uncontrolled",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "250.82",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD9CM",
-        "CONCEPT_CLASS_ID": "5-dig billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 44836918,
         "CONCEPT_NAME": "Diabetes with other specified manifestations, type I [juvenile type], not stated as uncontrolled",
         "STANDARD_CONCEPT": "N",
@@ -2960,6 +2943,40 @@
     },
     {
       "concept": {
+        "CONCEPT_ID": 44831047,
+        "CONCEPT_NAME": "Diabetes with other specified manifestations, type II or unspecified type, not stated as uncontrolled",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "250.80",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD9CM",
+        "CONCEPT_CLASS_ID": "5-dig billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 44826461,
+        "CONCEPT_NAME": "Diabetes with other specified manifestations, type II or unspecified type, uncontrolled",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "250.82",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD9CM",
+        "CONCEPT_CLASS_ID": "5-dig billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
         "CONCEPT_ID": 44820685,
         "CONCEPT_NAME": "Diabetes with unspecified complication",
         "STANDARD_CONCEPT": "N",
@@ -2970,6 +2987,40 @@
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD9CM",
         "CONCEPT_CLASS_ID": "4-dig nonbill code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 44829881,
+        "CONCEPT_NAME": "Diabetes with unspecified complication, type I [juvenile type], not stated as uncontrolled",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "250.91",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD9CM",
+        "CONCEPT_CLASS_ID": "5-dig billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 44819504,
+        "CONCEPT_NAME": "Diabetes with unspecified complication, type I [juvenile type], uncontrolled",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "250.93",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD9CM",
+        "CONCEPT_CLASS_ID": "5-dig billing code"
       },
       "isExcluded": false,
       "includeDescendants": false,
@@ -3011,36 +3062,19 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 44829881,
-        "CONCEPT_NAME": "Diabetes with unspecified complication, type I [juvenile type], not stated as uncontrolled",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "CONCEPT_ID": 443238,
+        "CONCEPT_NAME": "Diabetic - poor control",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "250.91",
+        "CONCEPT_CODE": "268519009",
         "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD9CM",
-        "CONCEPT_CLASS_ID": "5-dig billing code"
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
       },
       "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 44819504,
-        "CONCEPT_NAME": "Diabetes with unspecified complication, type I [juvenile type], uncontrolled",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "250.93",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD9CM",
-        "CONCEPT_CLASS_ID": "5-dig billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
+      "includeDescendants": true,
       "includeMapped": false
     },
     {
@@ -3120,23 +3154,6 @@
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
         "CONCEPT_CODE": "724136006",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 443238,
-        "CONCEPT_NAME": "Diabetic - poor control",
-        "STANDARD_CONCEPT": "S",
-        "STANDARD_CONCEPT_CAPTION": "Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "268519009",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
@@ -3334,23 +3351,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 44810261,
-        "CONCEPT_NAME": "Erectile dysfunction due to diabetes mellitus",
-        "STANDARD_CONCEPT": "S",
-        "STANDARD_CONCEPT_CAPTION": "Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "867891000000101",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 35626763,
         "CONCEPT_NAME": "Erectile dysfunction due to diabetes mellitus",
         "STANDARD_CONCEPT": "S",
@@ -3364,6 +3364,23 @@
       },
       "isExcluded": false,
       "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 44810261,
+        "CONCEPT_NAME": "Erectile dysfunction due to diabetes mellitus",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "867891000000101",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
       "includeMapped": false
     },
     {
@@ -3487,6 +3504,23 @@
     },
     {
       "concept": {
+        "CONCEPT_ID": 3138281,
+        "CONCEPT_NAME": "Gestational diabetes mellitus",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "237629002",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
         "CONCEPT_ID": 3126882,
         "CONCEPT_NAME": "Gestational diabetes mellitus",
         "STANDARD_CONCEPT": "N",
@@ -3521,15 +3555,49 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 3138281,
+        "CONCEPT_ID": 45443547,
+        "CONCEPT_NAME": "Gestational diabetes mellitus",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "L180811",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Read",
+        "CONCEPT_CLASS_ID": "Read"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40571985,
         "CONCEPT_NAME": "Gestational diabetes mellitus",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
         "INVALID_REASON": "U",
         "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "237629002",
+        "CONCEPT_CODE": "393568003",
         "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40395652,
+        "CONCEPT_NAME": "Gestational diabetes mellitus",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "199232003",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
       },
       "isExcluded": true,
@@ -3555,13 +3623,13 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 40571985,
+        "CONCEPT_ID": 40438058,
         "CONCEPT_NAME": "Gestational diabetes mellitus",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
         "INVALID_REASON": "U",
         "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "393568003",
+        "CONCEPT_CODE": "237629002",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
@@ -3582,57 +3650,6 @@
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "Read",
         "CONCEPT_CLASS_ID": "Read"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 40438058,
-        "CONCEPT_NAME": "Gestational diabetes mellitus",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "237629002",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 45443547,
-        "CONCEPT_NAME": "Gestational diabetes mellitus",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "L180811",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Read",
-        "CONCEPT_CLASS_ID": "Read"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 40395652,
-        "CONCEPT_NAME": "Gestational diabetes mellitus",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "199232003",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
       },
       "isExcluded": true,
       "includeDescendants": true,
@@ -3674,414 +3691,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 45931182,
-        "CONCEPT_NAME": "Gestational Diabetes Mellitus, Antepartum",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "117807",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "CIEL",
-        "CONCEPT_CLASS_ID": "Diagnosis"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 3244926,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class A>1<",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "75022004",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 4326434,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class A>1<",
-        "STANDARD_CONCEPT": "S",
-        "STANDARD_CONCEPT_CAPTION": "Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "75022004",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 4263902,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class A>2<",
-        "STANDARD_CONCEPT": "S",
-        "STANDARD_CONCEPT_CAPTION": "Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "46894009",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 3223260,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class A>2<",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "46894009",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 45939874,
-        "CONCEPT_NAME": "Gestational Diabetes Mellitus, Class A&gt;1&lt;",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "139484",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "CIEL",
-        "CONCEPT_CLASS_ID": "Diagnosis"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 45948311,
-        "CONCEPT_NAME": "Gestational Diabetes Mellitus, Class A&gt;2&lt;",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "139483",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "CIEL",
-        "CONCEPT_CLASS_ID": "Diagnosis"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 4226245,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class B",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "422155003",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 3159084,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class B",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "422155003",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 3162805,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class B>1<",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "71546005",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 4325113,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class B>1<",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "71546005",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 45916111,
-        "CONCEPT_NAME": "Gestational Diabetes Mellitus, Class B&gt;1&lt;",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "139482",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "CIEL",
-        "CONCEPT_CLASS_ID": "Diagnosis"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 3159038,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class C",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "421389009",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 4228102,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class C",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "421389009",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 4222834,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class D",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "421443003",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 3159040,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class D",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "421443003",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 4222222,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class F",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "421223006",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 3159031,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class F",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "421223006",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 4222547,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class H",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "420491007",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 3158990,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class H",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "420491007",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 4223444,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class R",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "420989005",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 3159011,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class R",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "420989005",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 3159002,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class T",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "420738003",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 4225013,
-        "CONCEPT_NAME": "Gestational diabetes mellitus, class T",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "420738003",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 3356929,
         "CONCEPT_NAME": "Gestational diabetes mellitus complicating pregnancy",
         "STANDARD_CONCEPT": "N",
@@ -4116,15 +3725,15 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 3423986,
+        "CONCEPT_ID": 45757124,
         "CONCEPT_NAME": "Gestational diabetes mellitus in childbirth",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
         "CONCEPT_CODE": "10753491000119101",
         "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
+        "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
       },
       "isExcluded": true,
@@ -4150,15 +3759,15 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 45757124,
+        "CONCEPT_ID": 3423986,
         "CONCEPT_NAME": "Gestational diabetes mellitus in childbirth",
-        "STANDARD_CONCEPT": "S",
-        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
         "CONCEPT_CODE": "10753491000119101",
         "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
+        "VOCABULARY_ID": "Nebraska Lexicon",
         "CONCEPT_CLASS_ID": "Clinical Finding"
       },
       "isExcluded": true,
@@ -4405,6 +4014,23 @@
     },
     {
       "concept": {
+        "CONCEPT_ID": 43020791,
+        "CONCEPT_NAME": "Gestational diabetes mellitus uncontrolled",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "472699005",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
         "CONCEPT_ID": 3447730,
         "CONCEPT_NAME": "Gestational diabetes mellitus uncontrolled",
         "STANDARD_CONCEPT": "N",
@@ -4422,13 +4048,336 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 43020791,
-        "CONCEPT_NAME": "Gestational diabetes mellitus uncontrolled",
+        "CONCEPT_ID": 3244926,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class A>1<",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "75022004",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4326434,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class A>1<",
         "STANDARD_CONCEPT": "S",
         "STANDARD_CONCEPT_CAPTION": "Standard",
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "472699005",
+        "CONCEPT_CODE": "75022004",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3223260,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class A>2<",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "46894009",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4263902,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class A>2<",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "46894009",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4226245,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class B",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "422155003",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3159084,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class B",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "422155003",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4325113,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class B>1<",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "71546005",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3162805,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class B>1<",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "71546005",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4228102,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class C",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "421389009",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3159038,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class C",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "421389009",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4222834,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class D",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "421443003",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3159040,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class D",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "421443003",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4222222,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class F",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "421223006",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3159031,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class F",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "421223006",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3158990,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class H",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "420491007",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4222547,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class H",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "420491007",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3159011,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class R",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "420989005",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4223444,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class R",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "420989005",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3159002,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class T",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "420738003",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4225013,
+        "CONCEPT_NAME": "Gestational diabetes mellitus, class T",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "420738003",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
@@ -4524,23 +4473,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 43021173,
-        "CONCEPT_NAME": "History of diabetes mellitus type 2",
-        "STANDARD_CONCEPT": "S",
-        "STANDARD_CONCEPT_CAPTION": "Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "472969004",
-        "DOMAIN_ID": "Observation",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Context-dependent"
-      },
-      "isExcluded": false,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 40769338,
         "CONCEPT_NAME": "History of Diabetes (regardless of treatment) [PhenX]",
         "STANDARD_CONCEPT": "S",
@@ -4551,6 +4483,23 @@
         "DOMAIN_ID": "Observation",
         "VOCABULARY_ID": "LOINC",
         "CONCEPT_CLASS_ID": "Clinical Observation"
+      },
+      "isExcluded": false,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 43021173,
+        "CONCEPT_NAME": "History of diabetes mellitus type 2",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "472969004",
+        "DOMAIN_ID": "Observation",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Context-dependent"
       },
       "isExcluded": false,
       "includeDescendants": true,
@@ -4592,13 +4541,13 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 3346930,
+        "CONCEPT_ID": 3087518,
         "CONCEPT_NAME": "History of gestational diabetes mellitus",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "472971004",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "1281000119104",
         "DOMAIN_ID": "Observation",
         "VOCABULARY_ID": "Nebraska Lexicon",
         "CONCEPT_CLASS_ID": "Context-dependent"
@@ -4609,13 +4558,13 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 3087518,
+        "CONCEPT_ID": 3346930,
         "CONCEPT_NAME": "History of gestational diabetes mellitus",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "1281000119104",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "472971004",
         "DOMAIN_ID": "Observation",
         "VOCABULARY_ID": "Nebraska Lexicon",
         "CONCEPT_CLASS_ID": "Context-dependent"
@@ -4830,23 +4779,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 761050,
-        "CONCEPT_NAME": "Ketoacidosis due to secondary diabetes mellitus",
-        "STANDARD_CONCEPT": "S",
-        "STANDARD_CONCEPT_CAPTION": "Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "138621000119108",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 36685758,
         "CONCEPT_NAME": "KPDM - ketosis-prone diabetes mellitus",
         "STANDARD_CONCEPT": "S",
@@ -4860,6 +4792,23 @@
       },
       "isExcluded": false,
       "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 761050,
+        "CONCEPT_NAME": "Ketoacidosis due to secondary diabetes mellitus",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "138621000119108",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
       "includeMapped": false
     },
     {
@@ -4922,40 +4871,6 @@
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
         "CONCEPT_CODE": "E12.6",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CN",
-        "CONCEPT_CLASS_ID": "ICD10 code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 1409215,
-        "CONCEPT_NAME": "Malnutrition-related diabetes mellitus, without complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E12.900",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CN",
-        "CONCEPT_CLASS_ID": "ICD10 code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 1409214,
-        "CONCEPT_NAME": "Malnutrition-related diabetes mellitus, without complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E12.9",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD10CN",
         "CONCEPT_CLASS_ID": "ICD10 code"
@@ -5068,6 +4983,40 @@
     },
     {
       "concept": {
+        "CONCEPT_ID": 1409215,
+        "CONCEPT_NAME": "Malnutrition-related diabetes mellitus, without complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E12.900",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CN",
+        "CONCEPT_CLASS_ID": "ICD10 code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 1409214,
+        "CONCEPT_NAME": "Malnutrition-related diabetes mellitus, without complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E12.9",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CN",
+        "CONCEPT_CLASS_ID": "ICD10 code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
         "CONCEPT_ID": 44807267,
         "CONCEPT_NAME": "Management of gestational diabetes mellitus",
         "STANDARD_CONCEPT": "S",
@@ -5102,23 +5051,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 40540073,
-        "CONCEPT_NAME": "Maternal gestational diabetes mellitus",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "359964007",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 3150387,
         "CONCEPT_NAME": "Maternal gestational diabetes mellitus",
         "STANDARD_CONCEPT": "N",
@@ -5128,6 +5060,23 @@
         "CONCEPT_CODE": "359964007",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40540073,
+        "CONCEPT_NAME": "Maternal gestational diabetes mellitus",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "359964007",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
       },
       "isExcluded": true,
@@ -5221,41 +5170,7 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 37110062,
-        "CONCEPT_NAME": "Neonatal diabetes, congenital hypothyroidism, congenital glaucoma, hepatic fibrosis, polycystic kidney syndrome",
-        "STANDARD_CONCEPT": "S",
-        "STANDARD_CONCEPT_CAPTION": "Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "724094005",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 1424972,
-        "CONCEPT_NAME": "Neonatal diabetes mellitus",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "P70.200",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CN",
-        "CONCEPT_CLASS_ID": "ICD10 code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 35210610,
+        "CONCEPT_ID": 1424971,
         "CONCEPT_NAME": "Neonatal diabetes mellitus",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
@@ -5263,8 +5178,8 @@
         "INVALID_REASON_CAPTION": "Valid",
         "CONCEPT_CODE": "P70.2",
         "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "4-char billing code"
+        "VOCABULARY_ID": "ICD10CN",
+        "CONCEPT_CLASS_ID": "ICD10 code"
       },
       "isExcluded": false,
       "includeDescendants": false,
@@ -5289,7 +5204,7 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 1424971,
+        "CONCEPT_ID": 35210610,
         "CONCEPT_NAME": "Neonatal diabetes mellitus",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
@@ -5297,8 +5212,42 @@
         "INVALID_REASON_CAPTION": "Valid",
         "CONCEPT_CODE": "P70.2",
         "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "4-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 1424972,
+        "CONCEPT_NAME": "Neonatal diabetes mellitus",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "P70.200",
+        "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD10CN",
         "CONCEPT_CLASS_ID": "ICD10 code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37110062,
+        "CONCEPT_NAME": "Neonatal diabetes, congenital hypothyroidism, congenital glaucoma, hepatic fibrosis, polycystic kidney syndrome",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "724094005",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
       },
       "isExcluded": false,
       "includeDescendants": false,
@@ -5442,23 +5391,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 1567972,
-        "CONCEPT_NAME": "Other specified diabetes mellitus",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E13",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "3-char nonbill code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 1409216,
         "CONCEPT_NAME": "Other specified diabetes mellitus",
         "STANDARD_CONCEPT": "N",
@@ -5469,6 +5401,23 @@
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD10CN",
         "CONCEPT_CLASS_ID": "ICD10 Hierarchy"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 1567972,
+        "CONCEPT_NAME": "Other specified diabetes mellitus",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E13",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "3-char nonbill code"
       },
       "isExcluded": false,
       "includeDescendants": false,
@@ -6615,23 +6564,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 35206885,
-        "CONCEPT_NAME": "Other specified diabetes mellitus without complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E13.9",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "4-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 45581359,
         "CONCEPT_NAME": "Other specified diabetes mellitus with periodontal disease",
         "STANDARD_CONCEPT": "N",
@@ -6836,91 +6768,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 45591033,
-        "CONCEPT_NAME": "Other specified diabetes mellitus with proliferative diabetic retinopathy without macular edema",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E13.359",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "6-char nonbill code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37200305,
-        "CONCEPT_NAME": "Other specified diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E13.3593",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "7-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37200304,
-        "CONCEPT_NAME": "Other specified diabetes mellitus with proliferative diabetic retinopathy without macular edema, left eye",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E13.3592",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "7-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37200303,
-        "CONCEPT_NAME": "Other specified diabetes mellitus with proliferative diabetic retinopathy without macular edema, right eye",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E13.3591",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "7-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37200306,
-        "CONCEPT_NAME": "Other specified diabetes mellitus with proliferative diabetic retinopathy without macular edema, unspecified eye",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E13.3599",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "7-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 37200283,
         "CONCEPT_NAME": "Other specified diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula",
         "STANDARD_CONCEPT": "N",
@@ -7081,6 +6928,91 @@
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
         "CONCEPT_CODE": "E13.3539",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "7-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 45591033,
+        "CONCEPT_NAME": "Other specified diabetes mellitus with proliferative diabetic retinopathy without macular edema",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E13.359",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "6-char nonbill code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37200305,
+        "CONCEPT_NAME": "Other specified diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E13.3593",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "7-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37200304,
+        "CONCEPT_NAME": "Other specified diabetes mellitus with proliferative diabetic retinopathy without macular edema, left eye",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E13.3592",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "7-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37200303,
+        "CONCEPT_NAME": "Other specified diabetes mellitus with proliferative diabetic retinopathy without macular edema, right eye",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E13.3591",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "7-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37200306,
+        "CONCEPT_NAME": "Other specified diabetes mellitus with proliferative diabetic retinopathy without macular edema, unspecified eye",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E13.3599",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD10CM",
         "CONCEPT_CLASS_ID": "7-char billing code"
@@ -7448,6 +7380,23 @@
     },
     {
       "concept": {
+        "CONCEPT_ID": 35206885,
+        "CONCEPT_NAME": "Other specified diabetes mellitus without complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E13.9",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "4-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
         "CONCEPT_ID": 45763617,
         "CONCEPT_NAME": "Partial diabetes insipidus",
         "STANDARD_CONCEPT": "S",
@@ -7635,23 +7584,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 37018196,
-        "CONCEPT_NAME": "Prediabetes",
-        "STANDARD_CONCEPT": "S",
-        "STANDARD_CONCEPT_CAPTION": "Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "714628002",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 44808385,
         "CONCEPT_NAME": "Pre-diabetes",
         "STANDARD_CONCEPT": "S",
@@ -7788,6 +7720,23 @@
     },
     {
       "concept": {
+        "CONCEPT_ID": 37018196,
+        "CONCEPT_NAME": "Prediabetes",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "714628002",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
         "CONCEPT_ID": 3263479,
         "CONCEPT_NAME": "Pregestational diabetes mellitus AND/OR impaired glucose tolerance, modified White class A",
         "STANDARD_CONCEPT": "N",
@@ -7822,23 +7771,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 3245224,
-        "CONCEPT_NAME": "Pregestational diabetes mellitus AND/OR impaired glucose tolerance, modified White class B",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "34818008",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 4146514,
         "CONCEPT_NAME": "Pregestational diabetes mellitus AND/OR impaired glucose tolerance, modified White class B",
         "STANDARD_CONCEPT": "S",
@@ -7856,13 +7788,13 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 3255675,
-        "CONCEPT_NAME": "Pregestational diabetes mellitus AND/OR impaired glucose tolerance, modified White class C",
+        "CONCEPT_ID": 3245224,
+        "CONCEPT_NAME": "Pregestational diabetes mellitus AND/OR impaired glucose tolerance, modified White class B",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "38063000",
+        "CONCEPT_CODE": "34818008",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "Nebraska Lexicon",
         "CONCEPT_CLASS_ID": "Clinical Finding"
@@ -7890,15 +7822,15 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 4144221,
-        "CONCEPT_NAME": "Pregestational diabetes mellitus AND/OR impaired glucose tolerance, modified White class D",
-        "STANDARD_CONCEPT": "S",
-        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "CONCEPT_ID": 3255675,
+        "CONCEPT_NAME": "Pregestational diabetes mellitus AND/OR impaired glucose tolerance, modified White class C",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "33669002",
+        "CONCEPT_CODE": "38063000",
         "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
+        "VOCABULARY_ID": "Nebraska Lexicon",
         "CONCEPT_CLASS_ID": "Clinical Finding"
       },
       "isExcluded": true,
@@ -7924,15 +7856,15 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 3290325,
-        "CONCEPT_NAME": "Pregestational diabetes mellitus AND/OR impaired glucose tolerance, modified White class F",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "CONCEPT_ID": 4144221,
+        "CONCEPT_NAME": "Pregestational diabetes mellitus AND/OR impaired glucose tolerance, modified White class D",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "4307007",
+        "CONCEPT_CODE": "33669002",
         "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
+        "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
       },
       "isExcluded": true,
@@ -7958,15 +7890,15 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 4220981,
-        "CONCEPT_NAME": "Pregestational diabetes mellitus AND/OR impaired glucose tolerance, modified White class FR",
-        "STANDARD_CONCEPT": "S",
-        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "CONCEPT_ID": 3290325,
+        "CONCEPT_NAME": "Pregestational diabetes mellitus AND/OR impaired glucose tolerance, modified White class F",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "82701004",
+        "CONCEPT_CODE": "4307007",
         "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
+        "VOCABULARY_ID": "Nebraska Lexicon",
         "CONCEPT_CLASS_ID": "Clinical Finding"
       },
       "isExcluded": true,
@@ -7984,6 +7916,23 @@
         "CONCEPT_CODE": "82701004",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 4220981,
+        "CONCEPT_NAME": "Pregestational diabetes mellitus AND/OR impaired glucose tolerance, modified White class FR",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "82701004",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
       },
       "isExcluded": true,
@@ -8019,142 +7968,6 @@
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "Nebraska Lexicon",
         "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 45908539,
-        "CONCEPT_NAME": "Pregestational Diabetes Mellitus or Impaired Glucose Tolerance, Modified White Class A",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "129239",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "CIEL",
-        "CONCEPT_CLASS_ID": "Diagnosis"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 45939242,
-        "CONCEPT_NAME": "Pregestational Diabetes Mellitus or Impaired Glucose Tolerance, Modified White Class B",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "129238",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "CIEL",
-        "CONCEPT_CLASS_ID": "Diagnosis"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 45939241,
-        "CONCEPT_NAME": "Pregestational Diabetes Mellitus or Impaired Glucose Tolerance, Modified White Class C",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "129237",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "CIEL",
-        "CONCEPT_CLASS_ID": "Diagnosis"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 45953179,
-        "CONCEPT_NAME": "Pregestational Diabetes Mellitus or Impaired Glucose Tolerance, Modified White Class D",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "129236",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "CIEL",
-        "CONCEPT_CLASS_ID": "Diagnosis"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 45944167,
-        "CONCEPT_NAME": "Pregestational Diabetes Mellitus or Impaired Glucose Tolerance, Modified White Class F",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "129235",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "CIEL",
-        "CONCEPT_CLASS_ID": "Diagnosis"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 45915317,
-        "CONCEPT_NAME": "Pregestational Diabetes Mellitus or Impaired Glucose Tolerance, Modified White Class Fr",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "129234",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "CIEL",
-        "CONCEPT_CLASS_ID": "Diagnosis"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 45926661,
-        "CONCEPT_NAME": "pregestational diabetes mellitus or impaired glucose tolerance, modified White class H",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "154216",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "CIEL",
-        "CONCEPT_CLASS_ID": "Diagnosis"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 45915316,
-        "CONCEPT_NAME": "Pregestational Diabetes Mellitus or Impaired Glucose Tolerance, Modified White Class R",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "129233",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "CIEL",
-        "CONCEPT_CLASS_ID": "Diagnosis"
       },
       "isExcluded": true,
       "includeDescendants": true,
@@ -8315,23 +8128,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 44832187,
-        "CONCEPT_NAME": "Secondary diabetes mellitus",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "249",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD9CM",
-        "CONCEPT_CLASS_ID": "3-dig nonbill code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 195771,
         "CONCEPT_NAME": "Secondary diabetes mellitus",
         "STANDARD_CONCEPT": "S",
@@ -8345,6 +8141,23 @@
       },
       "isExcluded": false,
       "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 44832187,
+        "CONCEPT_NAME": "Secondary diabetes mellitus",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "249",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD9CM",
+        "CONCEPT_CLASS_ID": "3-dig nonbill code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
       "includeMapped": false
     },
     {
@@ -8655,57 +8468,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 44836911,
-        "CONCEPT_NAME": "Secondary diabetes mellitus, without mention of complication",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "249.0",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD9CM",
-        "CONCEPT_CLASS_ID": "4-dig nonbill code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 44820680,
-        "CONCEPT_NAME": "Secondary diabetes mellitus without mention of complication, not stated as uncontrolled, or unspecified",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "249.00",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD9CM",
-        "CONCEPT_CLASS_ID": "5-dig billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 44832188,
-        "CONCEPT_NAME": "Secondary diabetes mellitus without mention of complication, uncontrolled",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "249.01",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD9CM",
-        "CONCEPT_CLASS_ID": "5-dig billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 44828789,
         "CONCEPT_NAME": "Secondary diabetes mellitus with peripheral circulatory disorders",
         "STANDARD_CONCEPT": "N",
@@ -8859,19 +8621,53 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 3455859,
-        "CONCEPT_NAME": "Supervision of high risk pregnancy with history of gestational diabetes mellitus",
+        "CONCEPT_ID": 44820680,
+        "CONCEPT_NAME": "Secondary diabetes mellitus without mention of complication, not stated as uncontrolled, or unspecified",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "702737001",
-        "DOMAIN_ID": "Observation",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Procedure"
+        "CONCEPT_CODE": "249.00",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD9CM",
+        "CONCEPT_CLASS_ID": "5-dig billing code"
       },
-      "isExcluded": true,
-      "includeDescendants": true,
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 44832188,
+        "CONCEPT_NAME": "Secondary diabetes mellitus without mention of complication, uncontrolled",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "249.01",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD9CM",
+        "CONCEPT_CLASS_ID": "5-dig billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 44836911,
+        "CONCEPT_NAME": "Secondary diabetes mellitus, without mention of complication",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "249.0",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD9CM",
+        "CONCEPT_CLASS_ID": "4-dig nonbill code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
       "includeMapped": false
     },
     {
@@ -8893,16 +8689,16 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 45769878,
-        "CONCEPT_NAME": "Supervision of high risk pregnancy with history of gestational diabetes mellitus done",
-        "STANDARD_CONCEPT": "S",
-        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "CONCEPT_ID": 3455859,
+        "CONCEPT_NAME": "Supervision of high risk pregnancy with history of gestational diabetes mellitus",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "85031000119106",
+        "CONCEPT_CODE": "702737001",
         "DOMAIN_ID": "Observation",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Context-dependent"
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Procedure"
       },
       "isExcluded": true,
       "includeDescendants": true,
@@ -8927,6 +8723,23 @@
     },
     {
       "concept": {
+        "CONCEPT_ID": 45769878,
+        "CONCEPT_NAME": "Supervision of high risk pregnancy with history of gestational diabetes mellitus done",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "85031000119106",
+        "DOMAIN_ID": "Observation",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Context-dependent"
+      },
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
+    },
+    {
+      "concept": {
         "CONCEPT_ID": 42538560,
         "CONCEPT_NAME": "Syndrome of infant of mother with gestational diabetes",
         "STANDARD_CONCEPT": "S",
@@ -8937,6 +8750,23 @@
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 1409105,
+        "CONCEPT_NAME": "Type 1 diabetes mellitus",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E10",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CN",
+        "CONCEPT_CLASS_ID": "ICD10 Hierarchy"
       },
       "isExcluded": false,
       "includeDescendants": false,
@@ -8978,23 +8808,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 1409105,
-        "CONCEPT_NAME": "Type 1 diabetes mellitus",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E10",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CN",
-        "CONCEPT_CLASS_ID": "ICD10 Hierarchy"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 40484649,
         "CONCEPT_NAME": "Type 1 diabetes mellitus well controlled",
         "STANDARD_CONCEPT": "S",
@@ -9022,40 +8835,6 @@
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD10CM",
         "CONCEPT_CLASS_ID": "4-char nonbill code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 1409107,
-        "CONCEPT_NAME": "Type 1 diabetes mellitus, With coma",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E10.000",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CN",
-        "CONCEPT_CLASS_ID": "ICD10 code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 1409106,
-        "CONCEPT_NAME": "Type 1 diabetes mellitus, With coma",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E10.0",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CN",
-        "CONCEPT_CLASS_ID": "ICD10 code"
       },
       "isExcluded": false,
       "includeDescendants": false,
@@ -9437,13 +9216,13 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 35206877,
+        "CONCEPT_ID": 45600640,
         "CONCEPT_NAME": "Type 1 diabetes mellitus with hypoglycemia without coma",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "D",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "E10.640",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E10.649",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD10CM",
         "CONCEPT_CLASS_ID": "6-char billing code"
@@ -9454,13 +9233,13 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 45600640,
+        "CONCEPT_ID": 35206877,
         "CONCEPT_NAME": "Type 1 diabetes mellitus with hypoglycemia without coma",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E10.649",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "E10.640",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD10CM",
         "CONCEPT_CLASS_ID": "6-char billing code"
@@ -10134,57 +9913,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 35206879,
-        "CONCEPT_NAME": "Type 1 diabetes mellitus without complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E10.9",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "4-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 1409147,
-        "CONCEPT_NAME": "Type 1 diabetes mellitus, Without complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E10.9",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CN",
-        "CONCEPT_CLASS_ID": "ICD10 code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 1409148,
-        "CONCEPT_NAME": "Type 1 diabetes mellitus, Without complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E10.900",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CN",
-        "CONCEPT_CLASS_ID": "ICD10 code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 45557111,
         "CONCEPT_NAME": "Type 1 diabetes mellitus with periodontal disease",
         "STANDARD_CONCEPT": "N",
@@ -10389,91 +10117,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 45571654,
-        "CONCEPT_NAME": "Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E10.359",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "6-char nonbill code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37200191,
-        "CONCEPT_NAME": "Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E10.3593",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "7-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37200190,
-        "CONCEPT_NAME": "Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema, left eye",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E10.3592",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "7-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37200189,
-        "CONCEPT_NAME": "Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema, right eye",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E10.3591",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "7-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37200192,
-        "CONCEPT_NAME": "Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema, unspecified eye",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E10.3599",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "7-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 37200169,
         "CONCEPT_NAME": "Type 1 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula",
         "STANDARD_CONCEPT": "N",
@@ -10634,6 +10277,91 @@
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
         "CONCEPT_CODE": "E10.3539",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "7-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 45571654,
+        "CONCEPT_NAME": "Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E10.359",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "6-char nonbill code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37200191,
+        "CONCEPT_NAME": "Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E10.3593",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "7-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37200190,
+        "CONCEPT_NAME": "Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema, left eye",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E10.3592",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "7-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37200189,
+        "CONCEPT_NAME": "Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema, right eye",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E10.3591",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "7-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37200192,
+        "CONCEPT_NAME": "Type 1 diabetes mellitus with proliferative diabetic retinopathy without macular edema, unspecified eye",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E10.3599",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD10CM",
         "CONCEPT_CLASS_ID": "7-char billing code"
@@ -11001,6 +10729,91 @@
     },
     {
       "concept": {
+        "CONCEPT_ID": 35206879,
+        "CONCEPT_NAME": "Type 1 diabetes mellitus without complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E10.9",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "4-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 1409106,
+        "CONCEPT_NAME": "Type 1 diabetes mellitus, With coma",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E10.0",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CN",
+        "CONCEPT_CLASS_ID": "ICD10 code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 1409107,
+        "CONCEPT_NAME": "Type 1 diabetes mellitus, With coma",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E10.000",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CN",
+        "CONCEPT_CLASS_ID": "ICD10 code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 1409148,
+        "CONCEPT_NAME": "Type 1 diabetes mellitus, Without complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E10.900",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CN",
+        "CONCEPT_CLASS_ID": "ICD10 code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 1409147,
+        "CONCEPT_NAME": "Type 1 diabetes mellitus, Without complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E10.9",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CN",
+        "CONCEPT_CLASS_ID": "ICD10 code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
         "CONCEPT_ID": 201826,
         "CONCEPT_NAME": "Type 2 diabetes mellitus",
         "STANDARD_CONCEPT": "S",
@@ -11018,23 +10831,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 1567956,
-        "CONCEPT_NAME": "Type 2 diabetes mellitus",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E11",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "3-char nonbill code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 1409150,
         "CONCEPT_NAME": "Type 2 diabetes mellitus",
         "STANDARD_CONCEPT": "N",
@@ -11045,6 +10841,23 @@
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD10CN",
         "CONCEPT_CLASS_ID": "ICD10 Hierarchy"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 1567956,
+        "CONCEPT_NAME": "Type 2 diabetes mellitus",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E11",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "3-char nonbill code"
       },
       "isExcluded": false,
       "includeDescendants": false,
@@ -11096,40 +10909,6 @@
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD10CM",
         "CONCEPT_CLASS_ID": "4-char nonbill code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 1409152,
-        "CONCEPT_NAME": "Type 2 diabetes mellitus, with coma",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E11.000",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CN",
-        "CONCEPT_CLASS_ID": "ICD10 code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 1409151,
-        "CONCEPT_NAME": "Type 2 diabetes mellitus, with coma",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E11.0",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CN",
-        "CONCEPT_CLASS_ID": "ICD10 code"
       },
       "isExcluded": false,
       "includeDescendants": false,
@@ -12259,57 +12038,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 35206882,
-        "CONCEPT_NAME": "Type 2 diabetes mellitus without complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E11.9",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "4-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 1409193,
-        "CONCEPT_NAME": "Type 2 diabetes mellitus, without complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E11.9",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CN",
-        "CONCEPT_CLASS_ID": "ICD10 code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 1409194,
-        "CONCEPT_NAME": "Type 2 diabetes mellitus, without complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E11.900",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CN",
-        "CONCEPT_CLASS_ID": "ICD10 code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 45533023,
         "CONCEPT_NAME": "Type 2 diabetes mellitus with periodontal disease",
         "STANDARD_CONCEPT": "N",
@@ -12514,91 +12242,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 45552386,
-        "CONCEPT_NAME": "Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E11.359",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "6-char nonbill code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37200248,
-        "CONCEPT_NAME": "Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E11.3593",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "7-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37200247,
-        "CONCEPT_NAME": "Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, left eye",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E11.3592",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "7-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37200246,
-        "CONCEPT_NAME": "Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, right eye",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E11.3591",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "7-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37200249,
-        "CONCEPT_NAME": "Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, unspecified eye",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E11.3599",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CM",
-        "CONCEPT_CLASS_ID": "7-char billing code"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 37200226,
         "CONCEPT_NAME": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula",
         "STANDARD_CONCEPT": "N",
@@ -12759,6 +12402,91 @@
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
         "CONCEPT_CODE": "E11.3539",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "7-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 45552386,
+        "CONCEPT_NAME": "Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E11.359",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "6-char nonbill code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37200248,
+        "CONCEPT_NAME": "Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E11.3593",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "7-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37200247,
+        "CONCEPT_NAME": "Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, left eye",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E11.3592",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "7-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37200246,
+        "CONCEPT_NAME": "Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, right eye",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E11.3591",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "7-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 37200249,
+        "CONCEPT_NAME": "Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, unspecified eye",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E11.3599",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "ICD10CM",
         "CONCEPT_CLASS_ID": "7-char billing code"
@@ -13126,6 +12854,91 @@
     },
     {
       "concept": {
+        "CONCEPT_ID": 35206882,
+        "CONCEPT_NAME": "Type 2 diabetes mellitus without complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E11.9",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CM",
+        "CONCEPT_CLASS_ID": "4-char billing code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 1409151,
+        "CONCEPT_NAME": "Type 2 diabetes mellitus, with coma",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E11.0",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CN",
+        "CONCEPT_CLASS_ID": "ICD10 code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 1409152,
+        "CONCEPT_NAME": "Type 2 diabetes mellitus, with coma",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E11.000",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CN",
+        "CONCEPT_CLASS_ID": "ICD10 code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 1409193,
+        "CONCEPT_NAME": "Type 2 diabetes mellitus, without complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E11.9",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CN",
+        "CONCEPT_CLASS_ID": "ICD10 code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 1409194,
+        "CONCEPT_NAME": "Type 2 diabetes mellitus, without complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E11.900",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CN",
+        "CONCEPT_CLASS_ID": "ICD10 code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
         "CONCEPT_ID": 40482801,
         "CONCEPT_NAME": "Type II diabetes mellitus uncontrolled",
         "STANDARD_CONCEPT": "S",
@@ -13140,6 +12953,23 @@
       "isExcluded": false,
       "includeDescendants": true,
       "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 1409267,
+        "CONCEPT_NAME": "Unspecified diabetes mellitus, without complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "E14.900",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "ICD10CN",
+        "CONCEPT_CLASS_ID": "ICD10 code"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": true
     },
     {
       "concept": {
@@ -13160,20 +12990,20 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 1409267,
-        "CONCEPT_NAME": "Unspecified diabetes mellitus, without complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "CONCEPT_ID": 37115758,
+        "CONCEPT_NAME": "X-linked intellectual disability, limb spasticity, retinal dystrophy, diabetes insipidus syndrome",
+        "STANDARD_CONCEPT": "S",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "E14.900",
+        "CONCEPT_CODE": "732246009",
         "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "ICD10CN",
-        "CONCEPT_CLASS_ID": "ICD10 code"
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
       },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": true
+      "isExcluded": true,
+      "includeDescendants": true,
+      "includeMapped": false
     },
     {
       "concept": {
@@ -13245,6 +13075,23 @@
     },
     {
       "concept": {
+        "CONCEPT_ID": 3075063,
+        "CONCEPT_NAME": "[X]Glomerular disorders in diabetes mellitus",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "198493003",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
         "CONCEPT_ID": 45493635,
         "CONCEPT_NAME": "[X]Glomerular disorders in diabetes mellitus",
         "STANDARD_CONCEPT": "N",
@@ -13279,23 +13126,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 3075063,
-        "CONCEPT_NAME": "[X]Glomerular disorders in diabetes mellitus",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "D",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "198493003",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 40398678,
         "CONCEPT_NAME": "[X]Glomerular disorders in diabetes mellitus",
         "STANDARD_CONCEPT": "N",
@@ -13303,108 +13133,6 @@
         "INVALID_REASON": "D",
         "INVALID_REASON_CAPTION": "Invalid",
         "CONCEPT_CODE": "198493003",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 37115758,
-        "CONCEPT_NAME": "X-linked intellectual disability, limb spasticity, retinal dystrophy, diabetes insipidus syndrome",
-        "STANDARD_CONCEPT": "S",
-        "STANDARD_CONCEPT_CAPTION": "Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "732246009",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": true,
-      "includeDescendants": true,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 3078510,
-        "CONCEPT_NAME": "[X]Malnutrition-related diabetes mellitus with other specified complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "D",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "191046008",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 3079758,
-        "CONCEPT_NAME": "[X]Malnutrition-related diabetes mellitus with other specified complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "D",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "190414006",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 40389545,
-        "CONCEPT_NAME": "[X]Malnutrition-related diabetes mellitus with other specified complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "D",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "191046008",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 45486724,
-        "CONCEPT_NAME": "[X]Malnutrition-related diabetes mellitus with other specified complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "V",
-        "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "Cyu2100",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Read",
-        "CONCEPT_CLASS_ID": "Read"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 44800669,
-        "CONCEPT_NAME": "[X]Malnutrition-related diabetes mellitus with other specified complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "478671000000103",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
@@ -13432,13 +13160,81 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 45429953,
-        "CONCEPT_NAME": "[X]Malnutrition-related diabetes mellitus with unspecified complications",
+        "CONCEPT_ID": 44800669,
+        "CONCEPT_NAME": "[X]Malnutrition-related diabetes mellitus with other specified complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "U",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "478671000000103",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40389545,
+        "CONCEPT_NAME": "[X]Malnutrition-related diabetes mellitus with other specified complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "191046008",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3079758,
+        "CONCEPT_NAME": "[X]Malnutrition-related diabetes mellitus with other specified complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "190414006",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3078510,
+        "CONCEPT_NAME": "[X]Malnutrition-related diabetes mellitus with other specified complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "191046008",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 45486724,
+        "CONCEPT_NAME": "[X]Malnutrition-related diabetes mellitus with other specified complications",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
         "INVALID_REASON": "V",
         "INVALID_REASON_CAPTION": "Valid",
-        "CONCEPT_CODE": "Cyu2200",
+        "CONCEPT_CODE": "Cyu2100",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "Read",
         "CONCEPT_CLASS_ID": "Read"
@@ -13466,6 +13262,23 @@
     },
     {
       "concept": {
+        "CONCEPT_ID": 40386811,
+        "CONCEPT_NAME": "[X]Malnutrition-related diabetes mellitus with unspecified complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "190413000",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
         "CONCEPT_ID": 3064068,
         "CONCEPT_NAME": "[X]Malnutrition-related diabetes mellitus with unspecified complications",
         "STANDARD_CONCEPT": "N",
@@ -13483,13 +13296,13 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 40386811,
+        "CONCEPT_ID": 44797029,
         "CONCEPT_NAME": "[X]Malnutrition-related diabetes mellitus with unspecified complications",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "D",
+        "INVALID_REASON": "U",
         "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "190413000",
+        "CONCEPT_CODE": "425691000000105",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
@@ -13517,47 +13330,30 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 44797029,
+        "CONCEPT_ID": 45429953,
         "CONCEPT_NAME": "[X]Malnutrition-related diabetes mellitus with unspecified complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "V",
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_CODE": "Cyu2200",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Read",
+        "CONCEPT_CLASS_ID": "Read"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 44813733,
+        "CONCEPT_NAME": "[X]Other specified diabetes mellitus",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
         "INVALID_REASON": "U",
         "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "425691000000105",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 3079049,
-        "CONCEPT_NAME": "[X]Other specified diabetes mellitus",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "D",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "191045007",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 40389544,
-        "CONCEPT_NAME": "[X]Other specified diabetes mellitus",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "D",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "191045007",
+        "CONCEPT_CODE": "442541000000107",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
@@ -13585,13 +13381,98 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 44813733,
+        "CONCEPT_ID": 40389544,
         "CONCEPT_NAME": "[X]Other specified diabetes mellitus",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "191045007",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3079049,
+        "CONCEPT_NAME": "[X]Other specified diabetes mellitus",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "191045007",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 40395653,
+        "CONCEPT_NAME": "[X]Pre-existing diabetes mellitus, unspecified",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "199233008",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3082727,
+        "CONCEPT_NAME": "[X]Pre-existing diabetes mellitus, unspecified",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "200505002",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3080100,
+        "CONCEPT_NAME": "[X]Pre-existing diabetes mellitus, unspecified",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "199233008",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 44799392,
+        "CONCEPT_NAME": "[X]Pre-existing diabetes mellitus, unspecified",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
         "INVALID_REASON": "U",
         "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "442541000000107",
+        "CONCEPT_CODE": "449851000000103",
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
@@ -13636,91 +13517,6 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 3082727,
-        "CONCEPT_NAME": "[X]Pre-existing diabetes mellitus, unspecified",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "D",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "200505002",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 44799392,
-        "CONCEPT_NAME": "[X]Pre-existing diabetes mellitus, unspecified",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "449851000000103",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 3080100,
-        "CONCEPT_NAME": "[X]Pre-existing diabetes mellitus, unspecified",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "D",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "199233008",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 40395653,
-        "CONCEPT_NAME": "[X]Pre-existing diabetes mellitus, unspecified",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "D",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "199233008",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
-        "CONCEPT_ID": 44794588,
-        "CONCEPT_NAME": "[X]Unspecified diabetes mellitus with renal complications",
-        "STANDARD_CONCEPT": "N",
-        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "U",
-        "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "397201000000107",
-        "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "SNOMED",
-        "CONCEPT_CLASS_ID": "Clinical Finding"
-      },
-      "isExcluded": false,
-      "includeDescendants": false,
-      "includeMapped": false
-    },
-    {
-      "concept": {
         "CONCEPT_ID": 45493280,
         "CONCEPT_NAME": "[X]Unspecified diabetes mellitus with renal complications",
         "STANDARD_CONCEPT": "N",
@@ -13731,6 +13527,23 @@
         "DOMAIN_ID": "Condition",
         "VOCABULARY_ID": "Read",
         "CONCEPT_CLASS_ID": "Read"
+      },
+      "isExcluded": false,
+      "includeDescendants": false,
+      "includeMapped": false
+    },
+    {
+      "concept": {
+        "CONCEPT_ID": 3064595,
+        "CONCEPT_NAME": "[X]Unspecified diabetes mellitus with renal complications",
+        "STANDARD_CONCEPT": "N",
+        "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+        "INVALID_REASON": "D",
+        "INVALID_REASON_CAPTION": "Invalid",
+        "CONCEPT_CODE": "191048009",
+        "DOMAIN_ID": "Condition",
+        "VOCABULARY_ID": "Nebraska Lexicon",
+        "CONCEPT_CLASS_ID": "Clinical Finding"
       },
       "isExcluded": false,
       "includeDescendants": false,
@@ -13755,15 +13568,15 @@
     },
     {
       "concept": {
-        "CONCEPT_ID": 3064595,
+        "CONCEPT_ID": 44794588,
         "CONCEPT_NAME": "[X]Unspecified diabetes mellitus with renal complications",
         "STANDARD_CONCEPT": "N",
         "STANDARD_CONCEPT_CAPTION": "Non-Standard",
-        "INVALID_REASON": "D",
+        "INVALID_REASON": "U",
         "INVALID_REASON_CAPTION": "Invalid",
-        "CONCEPT_CODE": "191048009",
+        "CONCEPT_CODE": "397201000000107",
         "DOMAIN_ID": "Condition",
-        "VOCABULARY_ID": "Nebraska Lexicon",
+        "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
       },
       "isExcluded": false,
