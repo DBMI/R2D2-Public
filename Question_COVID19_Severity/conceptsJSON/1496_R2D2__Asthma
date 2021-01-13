@@ -30,7 +30,7 @@
         "VOCABULARY_ID": "SNOMED",
         "CONCEPT_CLASS_ID": "Clinical Finding"
       },
-      "isExcluded": false,
+      "isExcluded": true,
       "includeDescendants": false,
       "includeMapped": false
     },
