@@ -73,10 +73,10 @@ Combined severity endpoint of
 
 * #1012 [Chronic Heart Failure](http://atlas-covid19.ohdsi.org/#/conceptset/1012/conceptset-expression) - [Included Concepts count: 45]
 * #1164 [Arterial Hypertension w/o pulmonary etc. hypertension](http://atlas-covid19.ohdsi.org/#/conceptset/1164/conceptset-expression) - [Included Concepts count: 363]
-* #39   [Diabetes mellitus](http://54.200.195.177/atlas/#/conceptset/39/conceptset-expression) - [Included Concepts count: 1128]
+* #1378 [Diabetes mellitus](http://atlas-covid19.ohdsi.org/#/conceptset/1378/conceptset-expression) - [Included Concepts count: 1128]
 * #262  [Coronary Artery Disease](http://54.200.195.177/atlas/#/conceptset/262/conceptset-expression) - [Included Concepts count: 1635]
-* #1013 [Asthma](http://atlas-covid19.ohdsi.org/#/conceptset/1013/conceptset-expression) - [Included Concepts count: 159]
-* #1014 [COPD](http://atlas-covid19.ohdsi.org/#/conceptset/1014/conceptset-expression) - [Included Concepts count: 24]
+* #1496 [Asthma](http://atlas-covid19.ohdsi.org/#/conceptset/1496/conceptset-expression) - [Included Concepts count: 319]
+* #1498 [COPD](http://atlas-covid19.ohdsi.org/#/conceptset/1498/conceptset-expression) - [Included Concepts count: 49]
 * #1015 [Cancer](http://atlas-covid19.ohdsi.org/#/conceptset/1015/conceptset-expression) - [Included Concepts count: 486]
 * #1016 [HIV/AIDS](http://atlas-covid19.ohdsi.org/#/conceptset/1016/conceptset-expression) - [Included Concepts count: 239]
 * #1017 [Transplant](http://atlas-covid19.ohdsi.org/#/conceptset/1017/conceptset-expression) - [Included Concepts count: 88]
