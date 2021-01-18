@@ -77,7 +77,11 @@ Combined severity endpoint of
 * #262  [Coronary Artery Disease](http://54.200.195.177/atlas/#/conceptset/262/conceptset-expression) - [Included Concepts count: 1635]
 * #1496 [Asthma](http://atlas-covid19.ohdsi.org/#/conceptset/1496/conceptset-expression) - [Included Concepts count: 319]
 * #1498 [COPD](http://atlas-covid19.ohdsi.org/#/conceptset/1498/conceptset-expression) - [Included Concepts count: 49]
-* #1015 [Cancer](http://atlas-covid19.ohdsi.org/#/conceptset/1015/conceptset-expression) - [Included Concepts count: 486]
+
+* #1505 [Cancer, Neoplasm, Leukemia, Lymphoma, Malignancy - Part I](http://atlas-covid19.ohdsi.org/#/conceptset/1505/conceptset-expression) - [Included Concepts count: 3259]
+* #1506 [Cancer, Neoplasm, Leukemia, Lymphoma, Malignancy - Part II](http://atlas-covid19.ohdsi.org/#/conceptset/1506/conceptset-expression) - [Included Concepts count: 3037]
+* #1507 [Cancer, Neoplasm, Leukemia, Lymphoma, Malignancy - Part III](http://atlas-covid19.ohdsi.org/#/conceptset/1507/conceptset-expression) - [Included Concepts count: 2936]
+
 * #1016 [HIV/AIDS](http://atlas-covid19.ohdsi.org/#/conceptset/1016/conceptset-expression) - [Included Concepts count: 239]
 * #1017 [Transplant](http://atlas-covid19.ohdsi.org/#/conceptset/1017/conceptset-expression) - [Included Concepts count: 88]
 * #1110 [Chronic Kidney Disease](http://atlas-covid19.ohdsi.org/#/conceptset/1110/conceptset-expression) - [Included Concepts count: 290]
