@@ -87,6 +87,7 @@ Combined severity endpoint of
 * #1505 [Cancer, Neoplasm, Leukemia, Lymphoma, Malignancy - Part I](http://atlas-covid19.ohdsi.org/#/conceptset/1505/conceptset-expression) - [Included Concepts count: 3259]
 * #1506 [Cancer, Neoplasm, Leukemia, Lymphoma, Malignancy - Part II](http://atlas-covid19.ohdsi.org/#/conceptset/1506/conceptset-expression) - [Included Concepts count: 3037]
 * #1507 [Cancer, Neoplasm, Leukemia, Lymphoma, Malignancy - Part III](http://atlas-covid19.ohdsi.org/#/conceptset/1507/conceptset-expression) - [Included Concepts count: 2936]
+* #1511 [Cancer - History of malignant neoplasm](http://atlas-covid19.ohdsi.org/#/conceptset/1511/conceptset-expression) - [Included Concepts count:3]
 
 * #1016 [HIV/AIDS](http://atlas-covid19.ohdsi.org/#/conceptset/1016/conceptset-expression) - [Included Concepts count: 239]
 * #1017 [Transplant](http://atlas-covid19.ohdsi.org/#/conceptset/1017/conceptset-expression) - [Included Concepts count: 88]
