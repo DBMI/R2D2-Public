@@ -73,7 +73,13 @@ Combined severity endpoint of
 
 * #1012 [Chronic Heart Failure](http://atlas-covid19.ohdsi.org/#/conceptset/1012/conceptset-expression) - [Included Concepts count: 45]
 * #1164 [Arterial Hypertension w/o pulmonary etc. hypertension](http://atlas-covid19.ohdsi.org/#/conceptset/1164/conceptset-expression) - [Included Concepts count: 363]
-* #1378 [Diabetes mellitus](http://atlas-covid19.ohdsi.org/#/conceptset/1378/conceptset-expression) - [Included Concepts count: 1128]
+
+* #1508 [Diabetes mellitus Type 1](http://atlas-covid19.ohdsi.org/#/conceptset/1508/conceptset-expression) - [Included Concepts count: 288]
+* #1509 [Diabetes mellitus Type 2](http://atlas-covid19.ohdsi.org/#/conceptset/1509/conceptset-expression) - [Included Concepts count: 289]
+* #1510 [Diabetes](http://atlas-covid19.ohdsi.org/#/conceptset/1510/conceptset-expression) - [Included Concepts count: 1034]
+
+
+
 * #262  [Coronary Artery Disease](http://54.200.195.177/atlas/#/conceptset/262/conceptset-expression) - [Included Concepts count: 1635]
 * #1496 [Asthma](http://atlas-covid19.ohdsi.org/#/conceptset/1496/conceptset-expression) - [Included Concepts count: 319]
 * #1498 [COPD](http://atlas-covid19.ohdsi.org/#/conceptset/1498/conceptset-expression) - [Included Concepts count: 49]
