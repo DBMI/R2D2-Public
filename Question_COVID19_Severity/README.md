@@ -71,23 +71,22 @@ Combined severity endpoint of
 * #1108 [height](http://atlas-covid19.ohdsi.org/#/conceptset/1108/conceptset-expression) - [Included Concepts count: 15]
 * #1107 [weight](http://atlas-covid19.ohdsi.org/#/conceptset/1107/conceptset-expression) - [Included Concepts count: 23)
 
-* #1012 [Chronic Heart Failure](http://atlas-covid19.ohdsi.org/#/conceptset/1012/conceptset-expression) - [Included Concepts count: 45]
-* #1164 [Arterial Hypertension w/o pulmonary etc. hypertension](http://atlas-covid19.ohdsi.org/#/conceptset/1164/conceptset-expression) - [Included Concepts count: 363]
+* #1521 [Chronic Heart Failure](http://atlas-covid19.ohdsi.org/#/conceptset/1521/conceptset-expression) - [Included Concepts count: 180] - updated on 01/20/2021
+* #1523 [Arterial Hypertension](http://atlas-covid19.ohdsi.org/#/conceptset/1523/conceptset-expression) - [Included Concepts count: 272] - updated on 01/20/2021
 
-* #1508 [Diabetes mellitus Type 1](http://atlas-covid19.ohdsi.org/#/conceptset/1508/conceptset-expression) - [Included Concepts count: 288]
-* #1509 [Diabetes mellitus Type 2](http://atlas-covid19.ohdsi.org/#/conceptset/1509/conceptset-expression) - [Included Concepts count: 289]
-* #1510 [Diabetes](http://atlas-covid19.ohdsi.org/#/conceptset/1510/conceptset-expression) - [Included Concepts count: 1034]
+* #1508 [Diabetes mellitus Type 1](http://atlas-covid19.ohdsi.org/#/conceptset/1508/conceptset-expression) - [Included Concepts count: 288] - updated on 01/18/2021
+* #1509 [Diabetes mellitus Type 2](http://atlas-covid19.ohdsi.org/#/conceptset/1509/conceptset-expression) - [Included Concepts count: 289] - updated on 01/18/2021
+* #1510 [Diabetes](http://atlas-covid19.ohdsi.org/#/conceptset/1510/conceptset-expression) - [Included Concepts count: 1034] - updated on 01/18/2020
 
+* #1512  [Coronary Artery Disease](http://54.200.195.177/atlas/#/conceptset/1512/conceptset-expression) - [Included Concepts count: 1682] - updated on 01/20/2021
 
+* #1496 [Asthma](http://atlas-covid19.ohdsi.org/#/conceptset/1496/conceptset-expression) - [Included Concepts count: 319] - updated on 01/13/2021
+* #1498 [COPD](http://atlas-covid19.ohdsi.org/#/conceptset/1498/conceptset-expression) - [Included Concepts count: 49] - updated on 01/13/2021
 
-* #262  [Coronary Artery Disease](http://54.200.195.177/atlas/#/conceptset/262/conceptset-expression) - [Included Concepts count: 1635]
-* #1496 [Asthma](http://atlas-covid19.ohdsi.org/#/conceptset/1496/conceptset-expression) - [Included Concepts count: 319]
-* #1498 [COPD](http://atlas-covid19.ohdsi.org/#/conceptset/1498/conceptset-expression) - [Included Concepts count: 49]
-
-* #1505 [Cancer, Neoplasm, Leukemia, Lymphoma, Malignancy - Part I](http://atlas-covid19.ohdsi.org/#/conceptset/1505/conceptset-expression) - [Included Concepts count: 3259]
-* #1506 [Cancer, Neoplasm, Leukemia, Lymphoma, Malignancy - Part II](http://atlas-covid19.ohdsi.org/#/conceptset/1506/conceptset-expression) - [Included Concepts count: 3037]
-* #1507 [Cancer, Neoplasm, Leukemia, Lymphoma, Malignancy - Part III](http://atlas-covid19.ohdsi.org/#/conceptset/1507/conceptset-expression) - [Included Concepts count: 2936]
-* #1511 [Cancer - History of malignant neoplasm](http://atlas-covid19.ohdsi.org/#/conceptset/1511/conceptset-expression) - [Included Concepts count:3]
+* #1505 [Cancer, Neoplasm, Leukemia, Lymphoma, Malignancy - Part I](http://atlas-covid19.ohdsi.org/#/conceptset/1505/conceptset-expression) - [Included Concepts count: 3259] - updated on 01/18/2021
+* #1506 [Cancer, Neoplasm, Leukemia, Lymphoma, Malignancy - Part II](http://atlas-covid19.ohdsi.org/#/conceptset/1506/conceptset-expression) - [Included Concepts count: 3037] - updated on 01/18/2021
+* #1507 [Cancer, Neoplasm, Leukemia, Lymphoma, Malignancy - Part III](http://atlas-covid19.ohdsi.org/#/conceptset/1507/conceptset-expression) - [Included Concepts count: 2936] - updated on 01/18/2021
+* #1511 [Cancer - History of malignant neoplasm](http://atlas-covid19.ohdsi.org/#/conceptset/1511/conceptset-expression) - [Included Concepts count:3] - updated on 01/18/2021
 
 * #1016 [HIV/AIDS](http://atlas-covid19.ohdsi.org/#/conceptset/1016/conceptset-expression) - [Included Concepts count: 239]
 * #1017 [Transplant](http://atlas-covid19.ohdsi.org/#/conceptset/1017/conceptset-expression) - [Included Concepts count: 88]
