@@ -88,10 +88,10 @@ Combined severity endpoint of
 * #1507 [Cancer, Neoplasm, Leukemia, Lymphoma, Malignancy - Part III](http://atlas-covid19.ohdsi.org/#/conceptset/1507/conceptset-expression) - [Included Concepts count: 2936] - updated on 01/18/2021
 * #1511 [Cancer - History of malignant neoplasm](http://atlas-covid19.ohdsi.org/#/conceptset/1511/conceptset-expression) - [Included Concepts count:3] - updated on 01/18/2021
 
-* #1016 [HIV/AIDS](http://atlas-covid19.ohdsi.org/#/conceptset/1016/conceptset-expression) - [Included Concepts count: 239]
-* #1017 [Transplant](http://atlas-covid19.ohdsi.org/#/conceptset/1017/conceptset-expression) - [Included Concepts count: 88]
-* #1110 [Chronic Kidney Disease](http://atlas-covid19.ohdsi.org/#/conceptset/1110/conceptset-expression) - [Included Concepts count: 290]
-* #1109 [Chronic Liver Dieases](http://atlas-covid19.ohdsi.org/#/conceptset/1109/conceptset-expression) - [Included Concepts count: 123]
+* #1539 [HIV/AIDS](http://atlas-covid19.ohdsi.org/#/conceptset/1539/conceptset-expression) - [Included Concepts count: 439] - updated on 01/25/2021
+* #1532 [Transplant](http://atlas-covid19.ohdsi.org/#/conceptset/1532/conceptset-expression) - [Included Concepts count: 165] - updated on 01/25/2021
+* #1533 [Chronic Kidney Disease](http://atlas-covid19.ohdsi.org/#/conceptset/1533/conceptset-expression) - [Included Concepts count: 351] - updated on 01/25/2021
+* #1534 [Chronic Liver Disease](http://atlas-covid19.ohdsi.org/#/conceptset/1534/conceptset-expression) - [Included Concepts count: 223] - updated on 01/25/2021
 
 * Blood Type: (see Concept IDs, used in Q21 SQL)
   * Blood type lab by measurement_concept_id = 3044630
