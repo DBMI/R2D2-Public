@@ -78,7 +78,7 @@ Combined severity endpoint of
 * #1509 [Diabetes mellitus Type 2](http://atlas-covid19.ohdsi.org/#/conceptset/1509/conceptset-expression) - [Included Concepts count: 289] - updated on 01/18/2021
 * #1510 [Diabetes](http://atlas-covid19.ohdsi.org/#/conceptset/1510/conceptset-expression) - [Included Concepts count: 1034] - updated on 01/18/2020
 
-* #1512  [Coronary Artery Disease](http://54.200.195.177/atlas/#/conceptset/1512/conceptset-expression) - [Included Concepts count: 1682] - updated on 01/20/2021
+* #1519  [Coronary Artery Disease](http://54.200.195.177/atlas/#/conceptset/1519/conceptset-expression) - [Included Concepts count: 1682] - updated on 01/20/2021
 
 * #1496 [Asthma](http://atlas-covid19.ohdsi.org/#/conceptset/1496/conceptset-expression) - [Included Concepts count: 319] - updated on 01/13/2021
 * #1498 [COPD](http://atlas-covid19.ohdsi.org/#/conceptset/1498/conceptset-expression) - [Included Concepts count: 49] - updated on 01/13/2021
@@ -88,7 +88,7 @@ Combined severity endpoint of
 * #1507 [Cancer, Neoplasm, Leukemia, Lymphoma, Malignancy - Part III](http://atlas-covid19.ohdsi.org/#/conceptset/1507/conceptset-expression) - [Included Concepts count: 2936] - updated on 01/18/2021
 * #1511 [Cancer - History of malignant neoplasm](http://atlas-covid19.ohdsi.org/#/conceptset/1511/conceptset-expression) - [Included Concepts count:3] - updated on 01/18/2021
 
-* #1539 [HIV/AIDS](http://atlas-covid19.ohdsi.org/#/conceptset/1539/conceptset-expression) - [Included Concepts count: 439] - updated on 01/25/2021
+* #1535 [HIV/AIDS](http://atlas-covid19.ohdsi.org/#/conceptset/1535/conceptset-expression) - [Included Concepts count: 439] - updated on 01/25/2021
 * #1532 [Transplant](http://atlas-covid19.ohdsi.org/#/conceptset/1532/conceptset-expression) - [Included Concepts count: 165] - updated on 01/25/2021
 * #1533 [Chronic Kidney Disease](http://atlas-covid19.ohdsi.org/#/conceptset/1533/conceptset-expression) - [Included Concepts count: 351] - updated on 01/25/2021
 * #1534 [Chronic Liver Disease](http://atlas-covid19.ohdsi.org/#/conceptset/1534/conceptset-expression) - [Included Concepts count: 223] - updated on 01/25/2021
@@ -122,17 +122,15 @@ Combined severity endpoint of
 <br>
 Concept Sets are also provided in JSON format [here](concepts_JSON/). Please note, depending on the latest update of the used ATLAS platform, the import of these JSON files may result in different included Concepts counts. Before continue working with the Concept Sets, please ensure that each count matches the reported count above.
 
-### Python Code (using Django ORM)
-Update in progress. [as of 12/22/2020]
 
 ### PostgreSQL Code
-Update in progress. [as of 12/22/2020]
+Second release of PostgreSQL code on 01/25/2021.
 
 ### SQL Code
-Update in progress. [as of 12/22/2020]
+Second release of MS SQL code and SQL Render input on 02/10/2021.
 
 ### Results published on covid19questions.org
-No results have been published yet. [as of 12/22/2020]
+No aggregated results have been published yet. [as of 02/10/2021]
 
 ### Other info
   * OMOP CDM [version 6.0](https://github.com/OHDSI/CommonDataModel/wiki) and OMOP CDM [version 5.3](https://github.com/OHDSI/CommonDataModel/releases/tag/v5.3.0)
