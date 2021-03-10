@@ -13,7 +13,7 @@
         "VOCABULARY_ID": "LOINC",
         "CONCEPT_CLASS_ID": "Lab Test"
       },
-      "isExcluded": false,
+      "isExcluded": true,
       "includeDescendants": false,
       "includeMapped": false
     },
@@ -30,7 +30,7 @@
         "VOCABULARY_ID": "LOINC",
         "CONCEPT_CLASS_ID": "Lab Test"
       },
-      "isExcluded": false,
+      "isExcluded": true,
       "includeDescendants": false,
       "includeMapped": false
     },
@@ -47,7 +47,7 @@
         "VOCABULARY_ID": "LOINC",
         "CONCEPT_CLASS_ID": "Lab Test"
       },
-      "isExcluded": false,
+      "isExcluded": true,
       "includeDescendants": false,
       "includeMapped": false
     },
@@ -64,7 +64,7 @@
         "VOCABULARY_ID": "LOINC",
         "CONCEPT_CLASS_ID": "Lab Test"
       },
-      "isExcluded": false,
+      "isExcluded": true,
       "includeDescendants": false,
       "includeMapped": false
     },
@@ -81,7 +81,7 @@
         "VOCABULARY_ID": "LOINC",
         "CONCEPT_CLASS_ID": "Lab Test"
       },
-      "isExcluded": false,
+      "isExcluded": true,
       "includeDescendants": false,
       "includeMapped": false
     },
@@ -132,7 +132,7 @@
         "VOCABULARY_ID": "LOINC",
         "CONCEPT_CLASS_ID": "Lab Test"
       },
-      "isExcluded": false,
+      "isExcluded": true,
       "includeDescendants": false,
       "includeMapped": false
     },
@@ -149,7 +149,7 @@
         "VOCABULARY_ID": "LOINC",
         "CONCEPT_CLASS_ID": "Lab Test"
       },
-      "isExcluded": false,
+      "isExcluded": true,
       "includeDescendants": false,
       "includeMapped": false
     }
