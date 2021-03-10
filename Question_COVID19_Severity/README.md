@@ -108,7 +108,7 @@ Combined severity endpoint of
 * #1001 [Neutrophils Leukocytes Ratio](http://atlas-covid19.ohdsi.org/#/conceptset/1001/conceptset-expression) - [Included Concepts count: 3]
 * #1367 [Absolute Lymphocyte Count](http://atlas-covid19.ohdsi.org/#/conceptset/1367/conceptset-expression) - [Included Concepts count: 4]
 * #1003 [Ferritin](http://atlas-covid19.ohdsi.org/#/conceptset/1003/conceptset-expression) - [Included Concepts count: 3]
-* #1002 [Lactate Dehydrogenase](http://atlas-covid19.ohdsi.org/#/conceptset/1002/conceptset-expression) - [Included Concepts count: 9]
+* #1002 [Lactate Dehydrogenase](http://atlas-covid19.ohdsi.org/#/conceptset/1002/conceptset-expression) - [Included Concepts count: 2]
 * #1006 [Direct Bilirubin](http://atlas-covid19.ohdsi.org/#/conceptset/1006/conceptset-expression) - [Included Concepts count: 3]
 * #1007 [Albumin](http://atlas-covid19.ohdsi.org/#/conceptset/1007/conceptset-expression) - [Included Concepts count: 4]
 * #1143 [Blood Urea Nitrogen](http://atlas-covid19.ohdsi.org/#/conceptset/1143/conceptset-expression) - [Included Concepts count: 8]
